@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, user-scalable=no">
+<meta charset="UTF-8">
+<title>Haoran Zhang's Portfolio</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+<div class="header">
+    <div class="logo"><a href="index.html">HZ.</a></div>
+  <ul class="nav clearFix">
+    <li id="work"><span>Work</span></li>
+    <li><a href="#">About</a></li>
+    <li><a href="http://haoranzhang.dribbble.com/">Dribbble</a></li>
+    <li><a href="mailto: horanzh@gmail.com">Email</a></li>
+  </ul>
+</div>
+<div class="container master">
+  <div class="name">Haoran Zhang</div>
+  <div class="bio">UX Designer, illustrator</div>
+</div>
+<section class="container item-list">
+  <div class="item">
+    <div class="intro">
+      <h3><a href="Stay-Safe-UMiami.html">Stay Safe UMiami App Design</a></h3>
+      <div class="deputy">University of Miami</div>
+      <div class="date">2020</div>
+    </div>
+    <div class="photo">
+      <img src="images/StaySafeUMiami/Stay_Safe_UMiami_Prototype.png">
+    </div>
+  </div>
+  <div class="item">
+    <div class="intro">
+      <h3><a href="#">Know Your Grove App Design</a></h3>
+      <div class="deputy">University of Miami</div>
+      <div class="date">2020</div>
+    </div>
+    <div class="photo">
+      <img src="images/KnowYourGrove/KnowYourGrove-Prototype.png">
+    </div>
+  </div>
+  <div class="item">
+    <div class="intro">
+      <h3><a href="#">OnePercentDsgn App Design</a></h3>
+      <div class="deputy">Pomegranate Education &amp; Technology</div>
+      <div class="date">2020</div>
+    </div>
+    <div class="photo">
+      <img src="images/OnePercentDsgn/OnePercentDsgn-Prototype.png">
+    </div>
+  </div>
+  <div class="item">
+    <div class="intro">
+      <h3><a href="#">Josephinum Academy of the SacredHeart Web Design</a></h3>
+      <div class="deputy">Josephinum Academy of the SacredHeart</div>
+      <div class="date">2019</div>
+    </div>
+    <div class="photo">
+      <img src="images/JosephinumAcademyoftheSacredHeart/JosephinumAcademyoftheSacredHeart.gif">
+    </div>
+  </div>
+</section>
+<footer class="container footer">
+  <a href="http://haoranzhang.dribbble.com/">Dribbble</a> <a href="mailto: horanzh@gmail.com">Email</a>
+</footer>
+
+<script>
+  //点击work 页面向上滚动
+  let work = document.getElementById('work');
+  let top_num = 0;
+  let top_max = 225;
+  work.onclick = function () {
+      var timer = setTimeout(function f() {
+          top_num += 1;
+          window.scrollTo(0,top_num);
+          if (top_num < top_max) {
+              timer = setTimeout(f, 5);
+          }
+      }, 5);
+  }
+</script>
+</body>
+</html>

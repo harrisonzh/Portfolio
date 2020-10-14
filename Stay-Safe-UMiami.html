@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, user-scalable=no">
+<meta charset="UTF-8">
+<title>Stay Safe UMiami App Design</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+<div class="header">
+    <div class="logo"><a href="index.html">HZ.</a></div>
+  <ul class="nav clearFix">
+    <li id="work"><a href="index.html">Work</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Dribbble</a></li>
+    <li><a href="#">Email</a></li>
+  </ul>
+</div>
+
+<!--文章头部-->
+<section class="container article-head">
+  <h1>Stay Safe UMiami</h1>
+  <div class="banner">
+    <img src="images/StaySafeUMiami/Stay_Safe_UMiami_Prototype.png">
+  </div>
+</section>
+
+<!--文章主体-->
+<section class="container article-body">
+  <section class="rdt">
+    <div>
+      <h2>Role</h2>
+      <p>UX Researcher and UI Designer</p>
+    </div>
+    <div>
+      <h2>Duration</h2>
+      <p>Aug 17, 2020 - Oct 12, 2020 <br> 8 weeks</p>
+    </div>
+    <div>
+      <h2>Team</h2>
+      <p>Research with a 6 people team <br> Design individually</p>
+    </div>
+  </section>
+
+  <div>
+    <h2>Project description</h2>
+    <p>Since school started on August 17, more than 200 students and faculties at the University of Miami have contracted the Coronavirus. It is very important to control the spread of the Coronavirus on campus. This project is a location-based App focused on solving the problem of the spread of the Coronavirus, designed for a Human-Centered Design (HCD) class, Fall 2020.</p>
+  </div>
+
+  <div>
+    <h2>Goals</h2>
+    <ul>
+      <li>Help students find protection resources on campus</li>
+      <li>Help students avoid contact with many people</li>
+      <li>Helps students to wash their hands regularly</li>
+      <li>Let students know when there are less people in a specific area</li>
+      <li>Track of UM covid confirmed cases in a high risk area on campus</li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Process</h2>
+    <ol>
+      <li>User research and interviews</li>
+      <li>Competitive analysis</li>
+      <li>Concept map</li>
+      <li>User flow</li>
+      <li>Site map</li>
+      <li>Wireframes</li>
+      <li>Prototype</li>
+    </ol>
+  </div>
+
+  <div>
+    <h2>Target User</h2>
+    <div class="UMStudent">
+      <p>UM students</p>
+    </div>
+    <ul>
+      <li>Users cares about their privacy</li>
+      <li>Users when there are less people in a specific area</li>
+      <li>Don’t trust other people on campus</li>
+      <li>People want to determine the safety of a place before coming to the place</li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Research</h2>
+    <div class="UMStudent">
+      <p>Sample size: 18 participants in total</p>
+    </div>
+    <ul>
+      <li>42% female 57% male</li>
+      <li>9 participants user segment A (students taking in-person or hybrid classes)</li>
+      <li>5 participants for user segment B (students taking only online classes)</li>
+      <li>4 participants for user segment C (faculty)</li>
+    </ul>
+    <h3>Affinity Diagrams</h3>
+    <p>We grouped our research findings in Affinity Diagrams</p>
+  </div>
+  <figure><img src="images/StaySafeUMiami/Affinity_Diagrams.png" alt="Affinity Diagrams"/></figure>
+  <div>
+    <h3>Research Finding</h3>
+    <ul>
+      <li>Students generally feel safe when seeing sanitization being done</li>
+      <li>Want information on hot zones Think it would be useful to know where people are contracting COVID on campus</li>
+      <li>Think that if biweekly testing is made mandatory it would more impactful</li>
+      <li>Concerned about people not taking covid seriously and unable to see where the virus have / could have been</li>
+      <li>Would like to see testing sites near / on campus and more campus buildings in the location density feature</li>
+    </ul>
+    <div class="UMStudent">
+      <p>Location density</p>
+    </div>
+    <ul>
+      <li>Peak time feature</li>
+      <li>The max capacity value is alarming</li>
+      <li>Accessibility for color blindness</li>
+      <li>Unsure what changed after the location density refreshes</li>
+      <li>Way finding to the places on location density</li>
+    </ul>
+    <h3>How could we address the these concerns?</h3>
+    <ul>We want to design a interactive campus map:
+      <li>Real-time location density feature with all the buildings / common spaces on campus</li>
+      <li>Wayfinding to the campus buildings and essential resources (PPE, hand sanitizers, testing sites, etc.)</li>
+      <li>Peak time feature showing when a space is most busy / clustered</li>
+      <li>Notification system for COVID information such as the number of cases on campus</li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Product description</h2>
+    <p>The App Stay Safe UMIAMI will help UM students to find the protection resources, testing locations on campus, avoid high risk area on campus and update the population density of specific locations on campus in real time.<br>
+      There is a map of the Coral Gable campus of the University of Miami in this App, and we will mark the locations of different buildings, PPE stations and hand sanitizer stations on the map. When students want to find a PPE station or a hand sanitizer station on campus, they can use our app to navigate them to the station. <br>
+      In some populated locations on campus, such as libraries, restaurants, gyms, bookstores, etc., we will mark the density of people using colors and percentages next to the building on the map.</p>
+  </div>
+
+  <div>
+    <h2>Concept map</h2>
+    <p>I created a concept map to help me organize my findings about how to keep safe on campus.</p>
+  </div>
+  <figure><img src="images/StaySafeUMiami/conceptmap.png" alt="Concept map" /></figure>
+  <div>
+    <h2>Features and functions</h2>
+    <h3>Location Density</h3>
+    <p>In some populated locations on campus, such as libraries, restaurants, gyms, bookstores, etc., The APP marks the density of people using colors and give user suggestions next to the building on the map. <br> Users will see more information related to the location after they tap the icon near the location. Such as distance, location density, peak time, and user can also see a “Make Appointment” Button. Users are able to make an appointment through the app.</p>
+    <h3>PPE Station</h3>
+    <p>Mark the stations; Navigation to the station; Shows available protective equipment;</p>
+    <h3>Hand sanitizer stations</h3>
+    <p>Mark the stations; Navigation to the station; How much hand sanitizer left in a hand sanitizer station;</p>
+    <h3>Restrooms</h3>
+    <p>Mark the stations; Navigation to the station;</p>
+    <h3>Testing stations</h3>
+    <p>Mark the stations; Navigation to the station; Check the Peak time of the station; Make appointment to the selected testing station;</p>
+    <h3>High risk area </h3>
+    <p>Mark the high risk area; Check confirm cases in the selected high risk area;</p>
+  </div>
+
+  <div>
+    <h2>Task Flow</h2>
+    <p>After I finished research, I started to work on the task flow, which was divided into 6 tasks:</p>
+    <ol>
+      <li>Check location density in the Shall Student Center, and make an appointment.</li>
+      <li>Check available protective equipment in a PPE station and get a route to the selected PPE station.</li>
+      <li>Check available Hand sanitizer in a Hand sanitizer station and get a route to the selected Hand sanitizer station.</li>
+      <li>Find a restroom on campus and get a route to the selected restroom.</li>
+      <li>Find the High risk area on campus.</li>
+      <li>Make an appointment for a coronavirus test on campus.</li>
+    </ol>
+  </div>
+
+  <figure><img src="images/StaySafeUMiami/TaskFlow.png" alt="Task Flow" /></figure>
+  <div>
+    <h2>Site Map</h2>
+    <p>After I finished task flow, I am ready to create a sitemap that visually present an overview of my interface design.</p>
+  </div>
+  <figure><img src="images/StaySafeUMiami/sitemap.png" alt="Site Map" /></figure>
+  <div>
+    <h2>Design sketches</h2>
+    <p>The sketch helped me reorganize my thoughts, how can I include all the functions?and how to present the functions. This sketch is also an important reference for my wireframe design.</p>
+  </div>
+  <figure><img src="images/StaySafeUMiami/sketch.png" alt="sketch" /></figure>
+  <div>
+    <h2>Wireframes</h2>
+    <p>According to the sketch, I made a first version of the wireframe design, I am trying to made the app simple and easy to use. I use Adobe XD to create the following pages.<br><a href="https://xd.adobe.com/view/c3530ffd-efa5-4943-ba30-5cdd72b588dd-9600/">View full wireframes</a></p>
+  </div>
+  <figure><img src="images/StaySafeUMiami/Wireframes.png" alt="Wireframes" /></figure>
+  <div>
+    <h2>Annotated Wireframes</h2>
+    <p>The pages below are the annotated wireframes for the app design.<br><a href="https://docs.google.com/presentation/d/1nsn85X_R3gzpQJzuNEE6QOAi7dmyHrD4s6Ge2Bq6jLM/edit?usp=sharing">View full annotated wireframes</a></p>
+  </div>
+  <figure>
+    <img src="images/StaySafeUMiami/Annotated%20Wireframes-LocationDensity.png" alt="Annotated Wireframes-LocationDensity" />
+    <img src="images/StaySafeUMiami/Annotated%20Wireframes-PPEStation.png" alt="Annotated Wireframes-PPEStation" />
+  </figure>
+  <div>
+    <h2>Final Prototype</h2>
+    <p>After all the research and wireframs I finnaly created the prototype. The prototype is very similar to the wireframes, and since the app is made for Students from University of Miami, so I was tring to match the UMiami Color. <br>The icons are download from iconfinder. The map is download from miami.edu. <br> Below are some of the pages of the final prototype.<br><a href="https://xd.adobe.com/view/c3530ffd-efa5-4943-ba30-5cdd72b588dd-9600/">Link to final prototype</a></p>
+
+    <!--<iframe width="800" height="516" src="https://www.youtube.com/embed/1VbKXRQqW10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+  </div>
+  <figure>
+    <img src="images/StaySafeUMiami/StyleGuide.png" alt="icons,color,buttons" />
+    <img src="images/StaySafeUMiami/Onboarding.png" alt="Onboarding" />
+    <img src="images/StaySafeUMiami/Pages.png" alt="Pages" />
+    <img src="images/StaySafeUMiami/LocationDensity.png" alt="Location Density" />
+    <img src="images/StaySafeUMiami/TestingLocation.png" alt="Testing Location" />
+  </figure>
+</section>
+
+<footer class="container footer">
+  <a href="#">Dribbble</a> <a href="#">Email</a>
+</footer>
+
+</body>
+</html>
