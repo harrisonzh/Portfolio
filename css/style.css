@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-  color: #e17731
+  color: #EB6838;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -102,12 +102,6 @@ h3 {
   text-align: center;
 }
 
-.img120 {
-  width: 120%;
-  margin: 0 auto;
-  max-width: 70em;
-}
-
 .rdt h2 {
   font-weight: 500;
 }
@@ -115,6 +109,12 @@ h3 {
 .UMStudent p {
   font-size: 1.2em;
   font-weight: 500;
+}
+
+.link {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #4561D6;
 }
 
 .header {
@@ -157,7 +157,7 @@ h3 {
 }
 
 .header .nav li span:hover {
-  color: #e17731
+  color: #EB6838;
 }
 
 .header + .master,
@@ -233,7 +233,7 @@ h3 {
 }
 
 .item-list .item:hover .intro a {
-  color: #e17731;
+  color: #EB6838;
   transition: color .8s ease
 }
 
@@ -272,7 +272,8 @@ h3 {
 
 .article-body > figure {
   padding: 0;
-  margin: 0;
+  margin: 0 0 50px 0;
+  
 }
 
 .article-body > img {
@@ -293,7 +294,7 @@ h3 {
 .article-body p {
   font-weight: 400;
   line-height: 1.8em;
-  font-size: .875rem;
+  font-size: 1rem;
   padding: 9px 0;
 }
 
