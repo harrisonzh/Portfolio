@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 1.1em;
 }
 
 body {
@@ -24,15 +24,32 @@ body {
 
 li {
   background-repeat: no-repeat;
-  list-style-type: none
+  list-style-type: none;
 }
 
 img {
   border: 0
 }
 
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.containeriframe {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
 a {
-  color: #333;
+  color: #303030;
   text-decoration: none;
 }
 
@@ -106,11 +123,6 @@ h3 {
   font-weight: 500;
 }
 
-.UMStudent p {
-  font-size: 1.2em;
-  font-weight: 500;
-}
-
 .link {
   font-size: 1.2em;
   font-weight: 500;
@@ -122,16 +134,16 @@ h3 {
   top: 0;
   right: 0;
   width: 100%;
-  /*background: #fff;*/
   padding: 0 20px;
-  line-height:70px;
+  line-height:100px;
   z-index: 99;
 }
 
 .header .logo {
   float: left;
-  font-size: 1.1rem;
+  font-size: 1.4em;
   font-weight: 600;
+  margin-left: 20px;
 }
 
 .header .logo img {
@@ -149,7 +161,7 @@ h3 {
   padding: 3px 15px;
   font-family: "acumin-pro", sans-serif;
   letter-spacing: 1px;
-  font-size:.875rem
+  font-size: 1em;
 }
 
 .header .nav li span {
@@ -176,7 +188,7 @@ h3 {
 }
 
 .master .bio {
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 .master .bio a {
@@ -210,13 +222,13 @@ h3 {
 }
 
 .item-list .deputy {
-  font-size: 1rem;
-  color: #333
+  font-size: 1em;
+  color: #303030
 }
 
 .item-list .date {
-  font-size: .875rem;
-  color: #666;
+  font-size: 1em;
+  color: #303030;
   padding-top: 15px;
 }
 
@@ -246,7 +258,7 @@ h3 {
   margin-top: 90px;
   text-align: center;
   padding: 20px 0;
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 .footer a {
@@ -257,7 +269,7 @@ h3 {
 .article-head h1 {
   text-align: center;
   margin: 60px 0;
-  font-size: 1.6rem;
+  font-size: 2.4em;
   font-weight: 700
 }
 
@@ -293,8 +305,8 @@ h3 {
 
 .article-body p {
   font-weight: 400;
-  line-height: 1.8em;
-  font-size: 1rem;
+  line-height: 2em;
+  font-size: 1.1em;
   padding: 9px 0;
 }
 
@@ -306,11 +318,13 @@ h3 {
 .article-body ul li {
   list-style-type: circle;
   padding: 5px 0;
+  font-size: 1.1em;
 }
 
 .article-body ol li {
   list-style-type: decimal;
   padding: 5px 0;
+  font-size: 1.1em;
 }
 
 @media (max-width: 1024px) {
@@ -326,12 +340,15 @@ h3 {
   }
 
   .item-list .deputy {
-    font-size: 1rem
+    font-size: 1em
   }
 
   .article-body > * {
     padding: 20px 80px
   }
+  .hidden {
+  visibility: hidden;
+}
 }
 
 /*@media (max-width: 768px) {
@@ -374,10 +391,15 @@ h3 {
     background: #fff;
   }
   .header .nav li {
-    font-size: 14px;
+    font-size: .9em;
     padding: 0 10px 0 10px;
   }
-
+  .header .logo {
+  float: left;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-left: 10px;
+}
   .header + .master,
   .header + .article-head {
     margin-top: 60px;
@@ -387,7 +409,7 @@ h3 {
   }
 
   .master .name {
-    font-size: 1rem;
+    font-size: 1.1em;
   }
 
   .item-list .item {
@@ -403,7 +425,7 @@ h3 {
   }
 
   .item-list .intro h3 {
-    font-size: 1rem;
+    font-size: 1.1em;
     margin-bottom: 12px;
   }
 
@@ -424,4 +446,78 @@ h3 {
   .article-body > * {
     padding: 20px 0
   }
+    
+  .hidden {
+  visibility: hidden;
+}
+  .article-body p {
+  font-size: 1em;
+}
+  .article-body ul li {
+  font-size: 1em;
+}
+
+  .article-body ol li {
+  font-size: 1em;
+}
+  .article-head h1 {
+  text-align: center;
+  margin: 60px 0;
+  font-size: 1.8em;
+  font-weight: 700
+}
+  .rdt {
+  display: block;
+  text-align: left;
+}
+  .header + .master,
+  .header + .article-head {
+    margin-top: 100px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+    background-color: #000;
+    color: #f0f0f0;
+  }
+    .item-list .intro h3 a {
+  color: #f0f0f0;
+}
+    .item-list .date {
+  color: #f0f0f0;
+}
+    .footer a {
+  color: #f0f0f0;
+}
+    a {
+  color: #f0f0f0;
+}
+    .item-list .deputy {
+  color: #f0f0f0
+}
+    .link {
+  color: #5f71ff;
+}
+    img {
+    opacity: .95;
+    transition: opacity .5s ease-in-out;
+  }
+    iframe {
+    opacity: .95;
+    transition: opacity .5s ease-in-out;
+    }
+
+@media (max-width: 1024px) {
+  .header {
+    background: #000;
+  }
+@media (max-width: 600px) {
+  .header {
+    background: #000;
+  }
+  .item-list .intro {
+    background: #151515;
+  }
+
 }
