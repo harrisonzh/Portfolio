@@ -347,7 +347,7 @@ h3 {
     padding: 20px 80px
   }
   .hidden {
-  visibility: hidden;
+   visibility: hidden;
 }
 }
 
@@ -395,10 +395,10 @@ h3 {
     padding: 0 10px 0 10px;
   }
   .header .logo {
-  float: left;
-  font-size: 1.2em;
-  font-weight: 600;
-  margin-left: 10px;
+   float: left;
+   font-size: 1.2em;
+   font-weight: 600;
+   margin-left: 10px;
 }
   .header + .master,
   .header + .article-head {
