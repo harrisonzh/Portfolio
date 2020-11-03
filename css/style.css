@@ -127,6 +127,10 @@ h3 {
   display: none;
 }
 
+.hideday {
+  display: block;
+}
+
 .link {
   font-size: 1.2em;
   font-weight: 500;
