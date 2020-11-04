@@ -337,7 +337,7 @@ h3 {
   font-size: 1.1em;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
    .header {
     background: #fff;
   }
@@ -537,7 +537,7 @@ h3 {
     transition: opacity .5s ease-in-out;
     }
 
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   .header {
     background: #000;
   }
