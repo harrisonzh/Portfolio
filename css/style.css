@@ -341,6 +341,7 @@ h3 {
    .header {
     background: #fff;
   }
+    
   .container {
     width: 80%;
   }
@@ -356,9 +357,11 @@ h3 {
   .article-body > * {
     padding: 20px 80px;
   }
+    
   .hidden {
    visibility: hidden;
 }
+    
   .header {
   line-height: 60px;
 }
@@ -403,26 +406,34 @@ h3 {
     line-height:60px;
     background: #fff;
   }
+    
   .header .nav li {
     font-size: .9em;
     padding: 0 10px 0 10px;
   }
+    
   .header .logo {
    float: left;
    font-size: 1.2em;
    font-weight: 600;
    margin-left: 10px;
 }
+    
   .header + .master,
   .header + .article-head {
     margin-top: 60px;
   }
+    
   .master {
     margin: 10px auto 30px;
   }
 
   .master .name {
     font-size: 1.1em;
+  }
+    
+  .container {
+    width: 100%;
   }
 
   .item-list .item {
