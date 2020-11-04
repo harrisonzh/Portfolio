@@ -342,22 +342,25 @@ h3 {
     background: #fff;
   }
   .container {
-    width: 100%;
+    width: 80%;
   }
 
   .item-list .intro h3 {
-    font-size: 1.4rem
+    font-size: 1.4rem;
   }
 
   .item-list .deputy {
-    font-size: 1em
+    font-size: 1em;
   }
 
   .article-body > * {
-    padding: 20px 80px
+    padding: 20px 80px;
   }
   .hidden {
    visibility: hidden;
+}
+  .header {
+  line-height: 60px;
 }
 }
 
