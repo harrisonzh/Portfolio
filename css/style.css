@@ -343,7 +343,7 @@ h3 {
   }
     
   .container {
-    width: 80%;
+    width: 70%;
   }
 
   .item-list .intro h3 {
@@ -423,17 +423,15 @@ h3 {
   .header + .article-head {
     margin-top: 60px;
   }
-    
+  .container {
+    width: 100%;
+  }
   .master {
     margin: 10px auto 30px;
   }
 
   .master .name {
     font-size: 1.1em;
-  }
-    
-  .container {
-    width: 100%;
   }
 
   .item-list .item {
