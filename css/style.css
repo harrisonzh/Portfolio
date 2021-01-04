@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,600');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 *, *:before, *:after {
   box-sizing: border-box
@@ -139,6 +140,11 @@ h3 {
   color: #4561D6;
 }
 
+.linkbottom {
+  font-weight: 500;
+  color: #4561D6;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -150,9 +156,10 @@ h3 {
 }
 
 .header .logo {
+  font-family: 'Righteous', cursive;
   float: left;
   font-size: 1.4em;
-  font-weight: 600;
+  font-weight: 400;
   margin-left: 20px;
 }
 
@@ -233,6 +240,7 @@ h3 {
 
 .item-list .deputy {
   font-size: 1em;
+  line-height: 1.8;
   color: #303030
 }
 
@@ -337,6 +345,9 @@ h3 {
   font-size: 1.1em;
 }
 
+label {
+  line-height: 1.8;
+}
 @media (max-width: 1280px) {
    .header {
     background: #fff;
@@ -415,7 +426,7 @@ h3 {
   .header .logo {
    float: left;
    font-size: 1.2em;
-   font-weight: 600;
+   font-weight: 400;
    margin-left: 10px;
 }
     
@@ -540,14 +551,14 @@ h3 {
     .link {
   color: #5f71ff;
 }
+    .linkbottom {
+  color: #5f71ff;
+}
+    
     img {
     opacity: .95;
     transition: opacity .5s ease-in-out;
   }
-    iframe {
-    opacity: .95;
-    transition: opacity .5s ease-in-out;
-    }
 
 @media (max-width: 1280px) {
   .header {
