@@ -411,7 +411,7 @@ label {
   }
 }
 */
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .header {
     padding: 0 12px;
     line-height:60px;
