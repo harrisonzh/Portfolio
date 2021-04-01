@@ -1,283 +1,517 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, user-scalable=no">
-<meta charset="UTF-8">
-<title>Haoran-Know Your Grove App Design</title>
-<link rel="stylesheet" href="css/style.css">
-<link rel="icon" type="image/png" href="images/icon.png">
-</head>
-<body>
-<div class="header">
-    <div class="logo"><a href="index.html">HZ.</a></div>
-  <ul class="nav clearFix">
-    <li id="work"><a href="index.html" class="hidden">Work</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="https://dribbble.com/HaoranZhang">Dribbble</a></li>
-    <li><a href="mailto: horanzh@gmail.com">Email</a></li>
-  </ul>
-</div>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Haoran's Portfolio</title>
+        <meta name="description" content="Themebau">
+        <meta name="author" content="RunWebRun">
+        <link rel="icon" type="image/png" href="assets/images/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- START: Styles -->
+        <!-- Swiper -->
+        <link rel="stylesheet" href="assets/vendor/swiper/dist/css/swiper.min.css" />
+        <!-- Fancybox -->
+        <link rel="stylesheet" href="assets/vendor/fancybox/dist/jquery.fancybox.min.css" />
+        <!-- Themebau -->
+        <link rel="stylesheet" href="assets/css/themebau.min.css">
+        <!-- Custom Styles -->
+        <link rel="stylesheet" href="assets/css/custom.css">
+        <!-- END: Styles -->
+        <!-- jQuery -->
+        <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+    </head>
+    <body>
+        <header class="navbar navbar-top navbar-expand navbar-fixed">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img width="107" src="assets/images/logo.svg" alt="">
+                </a>
+                <a class="navbar-toggle" href="#navbar-mobile-style-2" data-fancybox data-base-class="fancybox-navbar" data-keyboard="false" data-auto-focus="false" data-touch="false" data-close-existing="true" data-small-btn="false" data-toolbar="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+                <ul class="nav navbar-nav">
+                    
+                    <li class="nav-item navbar-dropdown navbar-dropdown-mega active">
+                        <a href="index.html" class="nav-link">
+                            <span class="nav-link-name">work</span>
+                            <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 9L5 5L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item navbar-dropdown">
+                        <a href="about.html" class="nav-link">
+                            <span class="nav-link-name">about</span>
+                            <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 9L5 5L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item navbar-dropdown">
+                        <a href="https://dribbble.com/HaoranZhang" class="nav-link">
+                            <span class="nav-link-name">dribbble</span>
+                            <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 9L5 5L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item navbar-dropdown">
+                        <a href="mailto:horanzh@gmail.com" class="nav-link">
+                            <span class="nav-link-name">email</span>
+                            <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 9L5 5L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </header>
+        <!-- style 2 -->
+        <div class="navbar navbar-mobile navbar-mobile-style-2" id="navbar-mobile-style-2">
+            <div class="shape justify-content-end">
+                <svg data-rellax-speed="0" width="544" height="362" viewBox="0 0 544 362" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="320.5" cy="41.5" r="320.5" fill="#F5F5F5" />
+                </svg>
+            </div>
+            <div class="navbar-head">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img width="107" src="assets/images/logo.svg" alt="">
+                    </a>
+                    <a class="navbar-toggle" href="#" data-fancybox-close>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row gh-1 justify-content-center">
+                    <div class="col-12 col-md-7 col-lg-5 col-xl-4">
+                        <div class="navbar-body">
+                            <ul class="nav navbar-nav navbar-nav-collapse">
+                                <li class="nav-item navbar-collapse">
+                                    <a href="index.html" class="nav-link collapsed" role="button" aria-expanded="false">
+                                        <span class="nav-link-name">Work</span>
+                                        <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                
+                                <li class="nav-item navbar-collapse">
+                                    <a href="about.html" class="nav-link collapsed" role="button" aria-expanded="false">
+                                        <span class="nav-link-name">About</span>
+                                        <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                
+                                <li class="nav-item navbar-collapse">
+                                    <a href="https://dribbble.com/HaoranZhang" class="nav-link collapsed" role="button" aria-expanded="false">
+                                        <span class="nav-link-name">Dribbble</span>
+                                        <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="nav-item navbar-collapse">
+                                    <a href="mailto:horanzh@gmail.com" class="nav-link collapsed" role="button" aria-expanded="false">
+                                        <span class="nav-link-name">Email</span>
+                                        <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-1 d-none d-md-block"></div>
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-3">
+                        <div class="navbar-footer">
+                            <div class="mb-60">
+                                <p class="lead mb-17 font-weight-medium">Contact info:</p>
+                                <ul class="list-group borderless font-size-17">
+                                    <li class="list-group-item">Email: <a href="mailto:horanzh@gmail.com">horanzh@gmail.com</a></li>
+                                    <li class="list-group-item">Phone: <a href="callto:+1 (513)570-3636">+1 (513)570-3636</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-wrap">
+            <div class="container">
+                <div class="row justify-content-center text-center pt-60 pb-130 mt-30">
+                    <div class="col-12 col-lg-8">
+                        <h1 class="h2 mb-n10 show-on-scroll" data-show-duration="500" data-show-distance="10">Know Your Grove</h1>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/KnowYourGrove/KnowYourGrove-Prototype.webp" alt="" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h2>Role: UX/UI Designer</h2>
+                        <h2>Duration: Dec 1, 2019 - June 25, 2020 (7 months)</h2>
+                        <h2>Team: Design with a 10-person team</h2>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Project Description</h3>
+                        <p>In order to display the landmark architectures in Miami’s historic district Coconut Grove, professor Kim Grinfeder led a team to collaborate with Andrew W. Mellon Foundation, University of Miami Library, and Lowe Art Museum to develop an APP which provide tourists and local residents with an interesting way to visit the famous historic district in downtown Miami: Coconut Grove.
+                        <br>Coconut Grove is a historic neighborhood with more than a century-old history. It is home to the most famous historical landmark in Miami: Vizcaya Museum and Gardens, Plymouth Congregational Church, the hundred-year-old big banyan tree and the peacocks are everywhere in Coconut Grove. The City of Miami government is also located here.
+                        <br>Know Your Grove will take tourists to visit the famous buildings in the area by cycling or walking and provide tourists and local residents with an interesting way to visit, bringing a different cultural journey to our users.</p>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>My Role</h3>
+                        <p>My role in the team is as a UX/UI designer. I conducted research on local residents, and used Adobe XD to complete the high-fidelity prototype design of the mobile app interface and the desktop version web interface. After the design is completed, I did a few user testing, and updated the prototype design based on user feedback. And then, I had a communication with the development team, solving the design problems encountered in the development process.</p>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Goals</h3>
+                        <ul>
+                          <li>Showcasing the history and culture of Coconut Grove.</li>
+                          <li>Introduce landmark historic buildings.</li>
+                          <li>Help users discover the treasure locations of the area.</li>
+                          <li>Inspire travel to promote local economic development and enrich the residents' lives.</li>
+                          <li>Attract Miami tourists to Coconut Grove.</li>
+                          <li>Mark the location of each scenic spot to help users develop a tour route.</li>
+                          <li>Help users learn about the area and buildings during the tour.</li>
+                          <li>Encourage users to ride a bike or walk with family or friends.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Process</h3>
+                        <ol>
+                          <li>User research and interviews</li>
+                          <li>Concept map</li>
+                          <li>Task flow</li>
+                          <li>Site map</li>
+                          <li>Sketch</li>
+                          <li>Wireframes</li>
+                          <li>User testing</li>
+                          <li>Prototype</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Target users</h3>
+                        <p>The target user of Know Your Grove is tourists and local residents.</p>
+                        <h4>Tourists</h4>
+                        <p>Tourists are mostly 20-70 years old, mainly from other states in the United States. Most tourists travel with families or in couple. Most live in Miami Beach or downtown Miami. They want to experience local specials, such as speedboats, diving, kayaking, visiting Little Havana, etc., They want to relax and enjoy time with family.</p>
 
-<!--HEAD-->
-<section class="container article-head">
-  <h1>Know Your Grove</h1>
-  <div class="banner">
-    <img src="images/KnowYourGrove/KnowYourGrove-Prototype.webp">
-  </div>
-</section>
+                        <h4>Local residents</h4>
+                        <p>Most residents in Coconut Grove are middle-class and high-income families. Most of them are 35 to 65 years old. Most residents I met in this area are female residents. They like to take a walk around after dinner or rest with their families.</p>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Research</h3>
+                        <h4>Sample size: 12 participants in total</h4>
+                        <ul>
+                          <li>75% female 25% male</li>
+                          <li>6 participants for user segment A(tourists)</li>
+                          <li>6 participants for user segment B(local residents)</li>
+                        </ul>
+                        <br>
+                        <h4>Research Findings</h4>
+                        <ul>
+                          <li>Most local residents do not know the historic buildings in the area.</li>
+                          <li>Some of the local residents have lived in the area for generations and some are new residents.</li>
+                          <li>Local residents are willing to share old photos of historic buildings in the area.</li>
+                          <li>Tourists believe that it is more important to relax, they don't want to waste vacation time and spend time where it is worthwhile.</li>
+                          <li>Tourists do not want to look at the phone screen while enjoying the sun.</li>
+                          <li>Tourists think it may be unsafe to look at a mobile phone while they are riding a bike.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Persona</h3>
+                        <p>According to three different target users, I made three Personas, they are: people who have lived here for generations, new residents and tourists.</p>
 
-<!--MAIN-->
-<section class="container article-body">
-  <section class="rdt">
-    <div>
-      <h2>Role</h2>
-      <p>UX/UI Designer</p>
-    </div>
-    <div>
-      <h2>Duration</h2>
-      <p>Dec 1, 2019 - June 25, 2020 <br> 7 months</p>
-    </div>
-    <div>
-      <h2>Team</h2>
-      <p>Design with a 10-person team</p>
-    </div>
-  </section>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/KnowYourGrove/KnowYourGrove-Persona.webp" alt="Persona" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Competitor Analysis</h3>
+                        <p>There are no existing similar apps for Coconut Grove in Miami. I have conducted competitive analysis on similar products used in other locations. I inspired by competitor's interaction design and visual design and applied it into the design of Know Your Grove, I also try to do a better job on interaction and visual design compared with other products.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/KnowYourGrove/KnowYourGrove-competitor-analysis.webp" alt="competitor analysis" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h4>Conclusion</h4>
+                        <p>Most of the competitor display less picture and mainly serves the purpose of information browsing, leading to weak sense of participation for users and users usually reluctant to download additional voice packages. I should add more pictures, reduce text messages, and add audio guide functions into the app. The interface design should be novel and simple, I should also learn from the interaction logic of outstanding competitive products.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/KnowYourGrove/KnowYourGrove-competitor-analysis1.webp" alt="competitor analysis" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Product description</h3>
+                        <p>App Know Your Grove will help users find the locations of attractions in Coconut Grove and provide navigation based on the user's location.
+                        <br>There is a map of Coconut Grove in this app. We will mark different attractions on the map. When the user clicks on an attraction, a brief introduction about it will appear at the bottom of the screen. When the user arrives at the selected attraction, the user can scan the QR code to unlock it according to the prompt in the App, users can browse or listen to more information about the attraction and browse photos.
+                        <br>App Know Your Grove will also recommend nearby attractions based on the user's location, displaying unlocked attractions and the number of all attractions at the top. In addition to the map, there is also a list view of the attractions in the App, and users can use the list to select the attraction they are interested in or read attraction information.</p>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Concept map</h3>
+                        <p>After completing the user research, I created a concept map. The concept map helps me understand how to achieve project goals by analyzing user needs and project goals, concept map are shown below, or use this <a href="assets/pdf/Know-your-grove/KnowYourGroveConceptMap.pdf" class="link">link</a> to visit the pdf file.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/KnowYourGrove/KnowYourGroveConceptMap.webp" alt="Concept Map" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Features and Functions</h3>
+                        <ul>
+                          <li>Show the user's location on the map.</li>
+                          <li>Mark the location of each attraction on the map.</li>
+                          <li>Display various attractions in a list.</li>
+                          <li>When the user selects an attraction, the user will see the information related to it.</li>
+                          <li>Provides navigation routes to selected locations.</li>
+                          <li>When a user arrives at an attraction, they can unlock the attraction by scanning the QR code.</li>
+                          <li>After unlocking, users can browse more information about the attraction, listen to the voice introduction, and view photos of the attraction.</li>
+                          <li>When the user unlocks an attraction, the app shows that it has been unlocked.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Task flow</h3>
+                        <p>After completing the user research, I started to work on the task flow, which is divided into 4 tasks:</p>
+                        <ol>
+                          <li>Unlock a location.</li>
+                          <li>View unlocked locations.</li>
+                          <li>View remaining locations.</li>
+                          <li>Get help.</li>
+                        </ol>
+                        <p>The task flow is shown below.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/KnowYourGrove/KnowYourGroveTaskFlow.webp" alt="Task Flow" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Site map</h3>
+                        <h4>Tessler's Law</h4>
+                        <ul>
+                            <li>All processes have a core of complexity that cannot be designed away and therefore must be assumed by either the system or the user.</li>
+                            <li>Ensure as much as possible of the burden is lifted from users by dealing with inherent complexity during design and development.</li>
+                            <li>Take care not to simplify interfaces to the point of abstraction.</li>
+                        </ul>
+                        <h4>Application</h4>
+                        <ul>
+                            <li>Keep frequently used information easy to find and hide less frequently used information.</li>
+                            <li>The interface content is classified according to the functions.</li>
+                        </ul>
+                        <p>After I finished task flows, I was ready to create a sitemap to define the information structure and what is presented in the Know Your Grove app. Site map is shown below, or use this <a href="assets/pdf/Know-your-grove/KnowYourGroveSiteMap.pdf" class="link">link</a> to visit the pdf file.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/KnowYourGrove/KnowYourGroveSiteMap.webp" alt="Site Map" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Sketch design</h3>
+                        <p>I started designing a sketch of the application on paper. Sketch design helps to clarify content relationships, potential interactions, and overall processes. I explored various ways to show how the content is displayed and structured.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/KnowYourGrove/Sketch.webp" alt="Sketch" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Wireframes</h3>
+                        <p>I created the first version of the wireframe design by using Adobe XD.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/KnowYourGrove/Wireframes.webp" alt="Wireframes" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Usability Testing</h3>
+                        <p>I wrote a usability test script and performed 8 usability tests using the wireframe I designed, use this <a href="assets/pdf/Know-your-grove/KnowYourGroveUsabilityTestScript.pdf" class="link">link</a> to visit the usability script. The following is the main content that I modified through user feedback:</p>
+                        <ol>
+                          <li>Because most of the local residents are mid-aged and elderly, a help button has been added to the lower right corner of the application to quickly solve usage problems.</li>
+                          <li>Moved the bottom menu button to the top.</li>
+                          <li>Enlarged button size.</li>
+                          <li>Reduced the size of the number on the top and deleted the percentage diagram of the unlocked attractions.</li>
+                        </ol>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/KnowYourGrove/KnowYourGrove_Usabilitytest.webp" alt="Usability test" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Final Prototype</h3>
+                        <p>After all the research and wireframe design, I finally created the final prototype. The following are the selected pages of the final prototype design.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/KnowYourGrove/Final-Prototype.webp" alt="Prototype" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Application of Interaction Rules</h3>
+                        <h4>Hick's law</h4>
+                        <p>The time it takes for a person to make a decision as a result of the possible choices: increasing the number of choices will increase the decision time logarithmically.</p>
+                        <h4>Application</h4>
+                        <ul>
+                            <li>Less frequently used functions can be hidden and placed in corners.</li>
+                            <li>Split the task flow to make users pay attention to the current selections.</li>
+                            <li>Classification of functions allows users to make choices faster and improve interaction efficiency.</li>
+                        </ul>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/KnowYourGrove/KnowYourGrove_interactionrules1.webp" alt="interaction rules" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h4>Occam's razor</h4>
+                        <p>Entities should not be multiplied without necessity, or more simply, the simplest explanation is usually the right one.</p>
+                        <h4>Application</h4>
+                        <ul>
+                            <li>Focus on displaying main functions and reducing user selections.</li>
+                            <li>Keep the frequently used interface simple.</li>
+                            <li>Merge processes, press on "Scenic Spots" to directly display the navigation route.</li>
+                        </ul>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/KnowYourGrove/KnowYourGrove_interactionrules2.webp" alt="interaction rules" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Mobility Usability</h3>
+                        <h4>Application</h4>
+                        <ul>
+                            <li>Place frequently used functions where users can reach them easily.</li>
+                            <li>Place infrequent functions in a location that is not easily accessible to prevent accidental touch.</li>
+                        </ul>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/KnowYourGrove/KnowYourGrove_interactionrules3.webp" alt="interaction rules" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>User Flow</h3>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/KnowYourGrove/KnowYourGroveInteraction.webp" alt="user flow" data-show-duration="800">
 
-  <div>
-    <h2>Project Description</h2>
-    <p>In order to display the landmark architectures in Miami’s historic district Coconut Grove, professor Kim Grinfeder led a team to collaborate with Andrew W. Mellon Foundation, University of Miami Library, and Lowe Art Museum to develop an APP which provide tourists and local residents with an interesting way to visit the famous historic district in downtown Miami: Coconut Grove.
-    <br>Coconut Grove is a historic neighborhood with more than a century-old history. It is home to the most famous historical landmark in Miami: Vizcaya Museum and Gardens, Plymouth Congregational Church, the hundred-year-old big banyan tree and the peacocks are everywhere in Coconut Grove. The City of Miami government is also located here.
-    <br>Know Your Grove will take tourists to visit the famous buildings in the area by cycling or walking and provide tourists and local residents with an interesting way to visit, bringing a different cultural journey to our users.</p>
-  </div>
-    
-    <div>
-    <h2>My Role</h2>
-    <p>My role in the team is as a UX/UI designer. I conducted research on local residents, and used Adobe XD to complete the high-fidelity prototype design of the mobile app interface and the desktop version web interface. After the design is completed, I did a few user testing, and updated the prototype design based on user feedback. And then, I had a communication with the development team, solving the design problems encountered in the development process.</p>
-  </div>
-    
-  <div>
-    <h2>Goal</h2>
-    <ul>
-      <li>Showcasing the history and culture of Coconut Grove.</li>
-      <li>Introduce landmark historic buildings.</li>
-      <li>Help users discover the treasure locations of the area.</li>
-      <li>Inspire travel to promote local economic development and enrich the residents' lives.</li>
-      <li>Attract Miami tourists to Coconut Grove.</li>
-      <li>Mark the location of each scenic spot to help users develop a tour route.</li>
-      <li>Help users learn about the area and buildings during the tour.</li>
-      <li>Encourage users to ride a bike or walk with family or friends.</li>
-    </ul>
-  </div>
-
-  <div>
-    <h2>Process</h2>
-    <ol>
-      <li>User research and interviews</li>
-      <li>Concept map</li>
-      <li>Task flow</li>
-      <li>Site map</li>
-      <li>Sketch</li>
-      <li>Wireframes</li>
-      <li>User testing</li>
-      <li>Prototype</li>
-    </ol>
-  </div>
-
-  <div>
-    <h2>Target users</h2>
-      <p>The target user of Know Your Grove is tourists and local residents.</p>
-      <h3>Tourists</h3>
-      <p>Tourists are mostly 20-70 years old, mainly from other states in the United States. Most tourists travel with families or in couple. Most live in Miami Beach or downtown Miami. They want to experience local specials, such as speedboats, diving, kayaking, visiting Little Havana, etc., They want to relax and enjoy time with family.</p>
-      
-      <h3>Local residents</h3>
-      <p>Most residents in Coconut Grove are middle-class and high-income families. Most of them are 35 to 65 years old. Most residents I met in this area are female residents. They like to take a walk around after dinner or rest with their families.</p>
-  </div>
-  
-  <div>
-    <h2>Research</h2>
-      <h3>Sample size: 12 participants in total</h3>
-    <ul>
-      <li>75% female 25% male</li>
-      <li>6 participants for user segment A(tourists)</li>
-      <li>6 participants for user segment B(local residents)</li>
-    </ul>
-    <h3>Research Findings</h3>
-    <ul>
-      <li>Most local residents do not know the historic buildings in the area.</li>
-      <li>Some of the local residents have lived in the area for generations and some are new residents.</li>
-      <li>Local residents are willing to share old photos of historic buildings in the area.</li>
-      <li>Tourists believe that it is more important to relax, they don't want to waste vacation time and spend time where it is worthwhile.</li>
-      <li>Tourists do not want to look at the phone screen while enjoying the sun.</li>
-      <li>Tourists think it may be unsafe to look at a mobile phone while they are riding a bike.</li>
-    </ul>
-  </div>
-    
-  <div>
-    <h2>Persona</h2>
-    <p>According to three different target users, I made three Personas, they are: people who have lived here for generations, new residents and tourists.</p>
-  </div>
-  <figure><img src="images/KnowYourGrove/KnowYourGrove-Persona.webp" alt="Persona" /></figure>
-    
-  <div>
-    <h2>Competitor Analysis</h2>
-    <p>There are no existing similar apps for Coconut Grove in Miami. I have conducted competitive analysis on similar products used in other locations. I inspired by competitor's interaction design and visual design and applied it into the design of Know Your Grove, I also try to do a better job on interaction and visual design compared with other products.</p>
-  </div>
-  <figure><img src="images/KnowYourGrove/KnowYourGrove-competitor-analysis.webp" alt="Competitive Analysis" /></figure>
-  <div>
-    <h3>Conclusion</h3>
-    <p>Most of the competitor display less picture and mainly serves the purpose of information browsing, leading to weak sense of participation for users and users usually reluctant to download additional voice packages. I should add more pictures, reduce text messages, and add audio guide functions into the app. The interface design should be novel and simple, I should also learn from the interaction logic of outstanding competitive products.</p>
-  </div>
-  <figure><img src="images/KnowYourGrove/KnowYourGrove-competitor-analysis1.webp" alt="Competitive Analysis" /></figure>
-
-    
-  <div>
-    <h2>Product description</h2>
-    <p>App Know Your Grove will help users find the locations of attractions in Coconut Grove and provide navigation based on the user's location.
-    <br>There is a map of Coconut Grove in this app. We will mark different attractions on the map. When the user clicks on an attraction, a brief introduction about it will appear at the bottom of the screen. When the user arrives at the selected attraction, the user can scan the QR code to unlock it according to the prompt in the App, users can browse or listen to more information about the attraction and browse photos.
-    <br>App Know Your Grove will also recommend nearby attractions based on the user's location, displaying unlocked attractions and the number of all attractions at the top. In addition to the map, there is also a list view of the attractions in the App, and users can use the list to select the attraction they are interested in or read attraction information.</p>
-  </div>
-    
-  <div>
-    <h2>Concept map</h2>
-    <p>After completing the user research, I created a concept map. The concept map helps me understand how to achieve project goals by analyzing user needs and project goals, concept map are shown below, or use this <a href="Know-your-grove/KnowYourGroveConceptMap.pdf" class="link">link</a> to visit the pdf file.</p>
-  </div>
-  <figure><img src="images/KnowYourGrove/KnowYourGroveConceptMap.webp" alt="Concept map" /></figure>
-    
-  <div>
-    <h2>Features and Functions</h2>
-    <ul>
-      <li>Show the user's location on the map.</li>
-      <li>Mark the location of each attraction on the map.</li>
-      <li>Display various attractions in a list.</li>
-      <li>When the user selects an attraction, the user will see the information related to it.</li>
-      <li>Provides navigation routes to selected locations.</li>
-      <li>When a user arrives at an attraction, they can unlock the attraction by scanning the QR code.</li>
-      <li>After unlocking, users can browse more information about the attraction, listen to the voice introduction, and view photos of the attraction.</li>
-      <li>When the user unlocks an attraction, the app shows that it has been unlocked.</li>
-    </ul>
-  </div>
-    
-  <div>
-    <h2>Task flow</h2>
-    <p>After completing the user research, I started to work on the task flow, which is divided into 4 tasks:</p>
-    <ol>
-      <li>Unlock a location.</li>
-      <li>View unlocked locations.</li>
-      <li>View remaining locations.</li>
-      <li>Get help.</li>
-    </ol>
-    <p>The task flow is shown below.</p>
-  </div>
-  <figure><img src="images/KnowYourGrove/KnowYourGroveTaskFlow.webp" alt="Task Flow" /></figure>
-    
-   <div>
-    <h2>Site map</h2>
-    <h3>Tessler's Law</h3>
-    <ul>
-        <li>All processes have a core of complexity that cannot be designed away and therefore must be assumed by either the system or the user.</li>
-        <li>Ensure as much as possible of the burden is lifted from users by dealing with inherent complexity during design and development.</li>
-        <li>Take care not to simplify interfaces to the point of abstraction.</li>
-    </ul>
-    <h3>Application</h3>
-    <ul>
-        <li>Keep frequently used information easy to find and hide less frequently used information.</li>
-        <li>The interface content is classified according to the functions.</li>
-    </ul>
-    <p>After I finished task flows, I was ready to create a sitemap to define the information structure and what is presented in the Know Your Grove app. Site map is shown below, or use this <a href="Know-your-grove/KnowYourGroveSiteMap.pdf" class="link">link</a> to visit the pdf file.</p>
-  </div>
-  <figure><img src="images/KnowYourGrove/KnowYourGroveSiteMap.webp" alt="Site Map" /></figure>
-    
-  <div>
-    <h2>Sketch design</h2>
-    <p>I started designing a sketch of the application on paper. Sketch design helps to clarify content relationships, potential interactions, and overall processes. I explored various ways to show how the content is displayed and structured.</p>
-  </div>
-  <figure><img src="images/KnowYourGrove/Sketch.webp" alt="sketch" /></figure>
-    
-  <div>
-    <h2>Wireframes</h2>
-    <p>I created the first version of the wireframe design by using Adobe XD.</p>
-  </div>
-  <figure><img src="images/KnowYourGrove/Wireframes.webp" alt="Wireframes" /></figure>
-    
-  <div>
-    <h2>Usability Testing</h2>
-    <p>I wrote a usability test script and performed 8 usability tests using the wireframe I designed. The following is the main content that I modified through user feedback:</p>
-    <ol>
-      <li>Because most of the local residents are mid-aged and elderly, a help button has been added to the lower right corner of the application to quickly solve usage problems.</li>
-      <li>Moved the bottom menu button to the top.</li>
-      <li>Enlarged button size.</li>
-      <li>Reduced the size of the number on the top and deleted the percentage diagram of the unlocked attractions.</li>
-    </ol>
-  </div>
-  <figure><img src="images/KnowYourGrove/KnowYourGrove_Usabilitytest.webp" alt="Usability test script" /></figure>
-    
-  <div>
-    <h2>Final Prototype</h2>
-    <p>After all the research and wireframe design, I finally created the final prototype. The following are the selected pages of the final prototype design.</p>
-  </div>
-  <figure>
-    <img src="images/KnowYourGrove/Final-Prototype.webp" alt="Final Prototype" />
-  </figure>
-    
-  <div>
-    <h2>Application of Interaction Rules</h2>
-    <h3>Hick's law</h3>
-    <p>The time it takes for a person to make a decision as a result of the possible choices: increasing the number of choices will increase the decision time logarithmically.</p>
-    <h3>Application</h3>
-    <ul>
-        <li>Less frequently used functions can be hidden and placed in corners.</li>
-        <li>Split the task flow to make users pay attention to the current selections.</li>
-        <li>Classification of functions allows users to make choices faster and improve interaction efficiency.</li>
-    </ul>
-  </div>
-  <figure><img src="images/KnowYourGrove/KnowYourGrove_interactionrules1.webp" alt="Application of Interaction Rule" /></figure>
-    
-  <div>
-    <h3>Occam's razor</h3>
-    <p>Entities should not be multiplied without necessity, or more simply, the simplest explanation is usually the right one.</p>
-    <h3>Application</h3>
-    <ul>
-        <li>Focus on displaying main functions and reducing user selections.</li>
-        <li>Keep the frequently used interface simple.</li>
-        <li>Merge processes, press on "Scenic Spots" to directly display the navigation route.</li>
-    </ul>
-  </div>
-  <figure><img src="images/KnowYourGrove/KnowYourGrove_interactionrules2.webp" alt="Application of Interaction Rule" /></figure>
-    
-  <div>
-    <h3>Mobility Usability</h3>
-    <h3>Application</h3>
-    <ul>
-        <li>Place frequently used functions where users can reach them easily.</li>
-        <li>Place infrequent functions in a location that is not easily accessible to prevent accidental touch.</li>
-    </ul>
-  </div>
-  <figure><img src="images/KnowYourGrove/KnowYourGrove_interactionrules3.webp" alt="Application of Interaction Rule" /></figure>
-    
-  <div>
-    <h3>User Flow</h3>
-  </div>
-  <figure><img src="images/KnowYourGrove/KnowYourGroveInteraction.webp" alt="User Flow" /></figure>
-  
-  <div>
-    <h2>Video Walkthrough</h2>
-    <p>The following are the video made by Know Your Grove's creative director Kim Grinfeder to walkthrough of all the main functions of Know Your Grove.</p>
-  </div>
-  <figure>
-    <div class="containeriframe">
-    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/d7-1cGd-sJ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </figure>
-    
-  <div>
-    <h2>Explore Coconut Grove, <a href="https://knowyourgrove.com/download.html" class="linkbottom">Download Know Your Grove App</a>.</h2>
-  </div>
-
-</section>
-
-<footer class="container footer">
-  <a href="https://dribbble.com/HaoranZhang">Dribbble</a> <a href="mailto: horanzh@gmail.com">Email</a>
-</footer>
-
-</body>
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Video Walkthrough</h3>
+                        <p>The following are the video made by Know Your Grove's creative director Kim Grinfeder to walkthrough of all the main functions of Know Your Grove.</p>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                <div class="containeriframe">
+                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/d7-1cGd-sJ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                </div>
+                    
+                 <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h4>Explore Coconut Grove, <a href="https://knowyourgrove.com/download.html" class="link">download Know Your Grove App</a>.</h4>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="page-navigation mt-60">
+                    <a href="josephinum-academy.html" class="btn btn-clean"><svg class="icon-arrow icon-arrow-left" width='26' height='11' viewBox='0 0 26 11' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <path d='M5.5 1L1 5.5L5.5 10' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
+                            <path d='M19 5.5H1' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' /></svg>prev<span class="d-none d-sm-inline"> project</span></a>
+                    <a href="index.html" class="btn btn-light btn-circle btn-xs">all</a>
+                    <a href="error-reporting-system.html" class="btn btn-clean">next<span class="d-none d-sm-inline"> project</span><svg class="icon-arrow icon-arrow-right" width='26' height='11' viewBox='0 0 26 11' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <path d='M20.5 1L25 5.5L20.5 10' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
+                            <path d='M7 5.5H25' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' /></svg></a>
+                </div>
+            </div>
+        </div>
+        <footer class="footer overflow-hidden pb-60">
+            <div class="container pb-10">
+                <hr class="mb-10 pb-30">
+                <div class="row gh-1 gv-2">
+                    <div class="col-12 col-md mt-md-04">
+                        <a href="index.html">
+                            <img width="108" src="assets/images/logo.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 mt-md-04">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="callto:+1 (513)570-3636" class="nav-link">+1 (513)570-3636</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="mailto:horanzh@gmail.com" class="nav-link">horanzh@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- START: Scripts -->
+        <!-- Object Fit Polyfill -->
+        <script src="assets/vendor/object-fit-images/dist/ofi.min.js"></script>
+        <!-- Popper -->
+        <script src="assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- Bootstrap Validator -->
+        <script src="assets/vendor/bootstrap-validator/dist/validator.min.js"></script>
+        <!-- ImagesLoaded -->
+        <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+        <!-- Swiper -->
+        <script src="assets/vendor/swiper/dist/js/swiper.min.js"></script>
+        <!-- Animejs -->
+        <script src="assets/vendor/animejs/lib/anime.min.js"></script>
+        <!-- Rellax -->
+        <script src="assets/vendor/rellax/rellax.min.js"></script>
+        <!-- Countdown -->
+        <script src="assets/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
+        <!-- Moment.js -->
+        <script src="assets/vendor/moment/min/moment.min.js"></script>
+        <script src="assets/vendor/moment-timezone/builds/moment-timezone-with-data.min.js"></script>
+        <!-- Isotope -->
+        <script src="assets/vendor/isotope-layout/dist/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/isotope-packery/packery-mode.pkgd.min.js"></script>
+        <!-- Jarallax -->
+        <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
+        <script src="assets/vendor/jarallax/dist/jarallax-video.min.js"></script>
+        <!-- Fancybox -->
+        <script src="assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+        <!-- Themebau -->
+        <script src="assets/js/themebau.min.js"></script>
+        <!-- END: Scripts -->
+    </body>
 </html>

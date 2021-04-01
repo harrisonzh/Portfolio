@@ -1,256 +1,481 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, user-scalable=no">
-<meta charset="UTF-8">
-<title>Haoran-Stay Safe UMiami App Design</title>
-<link rel="stylesheet" href="css/style.css">
-<link rel="icon" type="image/png" href="images/icon.png">
-</head>
-<body>
-<div class="header">
-    <div class="logo"><a href="index.html">HZ.</a></div>
-  <ul class="nav clearFix">
-    <li id="work"><a href="index.html" class="hidden">Work</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="https://dribbble.com/HaoranZhang">Dribbble</a></li>
-    <li><a href="mailto: horanzh@gmail.com">Email</a></li>
-  </ul>
-</div>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Haoran's Portfolio</title>
+        <meta name="description" content="Themebau">
+        <meta name="author" content="RunWebRun">
+        <link rel="icon" type="image/png" href="assets/images/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- START: Styles -->
+        <!-- Swiper -->
+        <link rel="stylesheet" href="assets/vendor/swiper/dist/css/swiper.min.css" />
+        <!-- Fancybox -->
+        <link rel="stylesheet" href="assets/vendor/fancybox/dist/jquery.fancybox.min.css" />
+        <!-- Themebau -->
+        <link rel="stylesheet" href="assets/css/themebau.min.css">
+        <!-- Custom Styles -->
+        <link rel="stylesheet" href="assets/css/custom.css">
+        <!-- END: Styles -->
+        <!-- jQuery -->
+        <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+    </head>
+    <body>
+        <header class="navbar navbar-top navbar-expand navbar-fixed">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img width="107" src="assets/images/logo.svg" alt="">
+                </a>
+                <a class="navbar-toggle" href="#navbar-mobile-style-2" data-fancybox data-base-class="fancybox-navbar" data-keyboard="false" data-auto-focus="false" data-touch="false" data-close-existing="true" data-small-btn="false" data-toolbar="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+                <ul class="nav navbar-nav">
+                    
+                    <li class="nav-item navbar-dropdown navbar-dropdown-mega active">
+                        <a href="index.html" class="nav-link">
+                            <span class="nav-link-name">work</span>
+                            <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 9L5 5L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item navbar-dropdown">
+                        <a href="about.html" class="nav-link">
+                            <span class="nav-link-name">about</span>
+                            <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 9L5 5L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item navbar-dropdown">
+                        <a href="https://dribbble.com/HaoranZhang" class="nav-link">
+                            <span class="nav-link-name">dribbble</span>
+                            <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 9L5 5L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item navbar-dropdown">
+                        <a href="mailto:horanzh@gmail.com" class="nav-link">
+                            <span class="nav-link-name">email</span>
+                            <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 9L5 5L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </header>
+        <!-- style 2 -->
+        <div class="navbar navbar-mobile navbar-mobile-style-2" id="navbar-mobile-style-2">
+            <div class="shape justify-content-end">
+                <svg data-rellax-speed="0" width="544" height="362" viewBox="0 0 544 362" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="320.5" cy="41.5" r="320.5" fill="#F5F5F5" />
+                </svg>
+            </div>
+            <div class="navbar-head">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img width="107" src="assets/images/logo.svg" alt="">
+                    </a>
+                    <a class="navbar-toggle" href="#" data-fancybox-close>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row gh-1 justify-content-center">
+                    <div class="col-12 col-md-7 col-lg-5 col-xl-4">
+                        <div class="navbar-body">
+                            <ul class="nav navbar-nav navbar-nav-collapse">
+                                <li class="nav-item navbar-collapse">
+                                    <a href="index.html" class="nav-link collapsed" role="button" aria-expanded="false">
+                                        <span class="nav-link-name">Work</span>
+                                        <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                
+                                <li class="nav-item navbar-collapse">
+                                    <a href="about.html" class="nav-link collapsed" role="button" aria-expanded="false">
+                                        <span class="nav-link-name">About</span>
+                                        <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                
+                                <li class="nav-item navbar-collapse">
+                                    <a href="https://dribbble.com/HaoranZhang" class="nav-link collapsed" role="button" aria-expanded="false">
+                                        <span class="nav-link-name">Dribbble</span>
+                                        <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="nav-item navbar-collapse">
+                                    <a href="mailto:horanzh@gmail.com" class="nav-link collapsed" role="button" aria-expanded="false">
+                                        <span class="nav-link-name">Email</span>
+                                        <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-1 d-none d-md-block"></div>
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-3">
+                        <div class="navbar-footer">
+                            <div class="mb-60">
+                                <p class="lead mb-17 font-weight-medium">Contact info:</p>
+                                <ul class="list-group borderless font-size-17">
+                                    <li class="list-group-item">Email: <a href="mailto:horanzh@gmail.com">horanzh@gmail.com</a></li>
+                                    <li class="list-group-item">Phone: <a href="callto:+1 (513)570-3636">+1 (513)570-3636</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-wrap">
+            <div class="container">
+                <div class="row justify-content-center text-center pt-60 pb-130 mt-30">
+                    <div class="col-12 col-lg-8">
+                        <h1 class="h2 mb-n10 show-on-scroll" data-show-duration="500" data-show-distance="10">Stay Safe UMiami</h1>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/StaySafeUMiami/Stay_Safe_UMiami_Prototype.webp" alt="Stay Safe UMiami Prototype" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h2>Role: UX Researcher and UI Designer</h2>
+                        <h2>Duration: Aug 17, 2020 - Oct 12, 2020 (8 weeks)</h2>
+                        <h2>Team: Research with a 6-person team, design individually</h2>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Project Description</h3>
+                        <p>Since the start of school on August 17, more than 200 students and faculty members at the University of Miami have contracted the Coronavirus. It is very important to control the spread of the Coronavirus on campus. This project is the design of a <strong>location-based app focused on solving the problem of the spread of the Coronavirus</strong>, designed for a Human-Centered Design (HCD) class, Fall 2020.</p>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Project Scope</h3>
+                          <h4>Current area of opportunity</h4>
+                        <ul>
+                          <li>How could we help students find protection resources on campus?</li>
+                          <li>How could we Help students avoid contact with many people?</li>
+                          <li>How could we remind students to keep social distancing and wear a mask?</li>
+                          <li>How could we remind students to wash their hands regularly?</li>
+                          <li>How could we let students know when there are less people in a specific area?</li>
+                          <li>How could we keep track of UM covid confirmed cases?</li>
+                        </ul>
+                        <br>
 
-<!--HEAD-->
-<section class="container article-head">
-  <h1>Stay Safe UMiami</h1>
-  <div class="banner">
-    <img src="images/StaySafeUMiami/Stay_Safe_UMiami_Prototype.webp">
-  </div>
-</section>
+                          <h4>Why is this matters?</h4>
+                        <ul>
+                          <li>Prevent students from being exposed to the virus and reduce the chance of students getting the virus.</li>
+                          <li>Control the spread of the virus and make life return to normal soon.</li>
+                          <li>If students find protective items faster, then they can reduce the risk of contact with the virus.</li>
+                          <li>If students know the UM covid confirmed cases, they will have a judgment about the degree of danger around them.</li>
+                        </ul>
+                        <br>
 
-<!--MAIN-->
-<section class="container article-body">
-  <section class="rdt">
-    <div>
-      <h2>Role</h2>
-      <p>UX Researcher and UI Designer</p>
-    </div>
-    <div>
-      <h2>Duration</h2>
-      <p>Aug 17, 2020 - Oct 12, 2020 <br> 8 weeks</p>
-    </div>
-    <div>
-      <h2>Team</h2>
-      <p>Research with a 6-person team <br> Design individually</p>
-    </div>
-  </section>
+                          <h4>What’s the barrier that gets in the way?</h4>
+                        <ul>
+                          <li>Our real time room density data is from our user, so the data may not be 100% correct.</li>
+                          <li>Our users may not want to share their location with us, because of the privacy concerns.</li>
+                          <li>We can only focus on student activities on campus, and cannot provide support for student activities outside of campus.</li>
+                          <li>Confirmed patients on campus may not be willing to share their test result.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Goals</h3>
+                        <ul>
+                          <li>Help students find protection resources on campus.</li>
+                          <li>Help students avoid contact with too many people.</li>
+                          <li>Help students to wash their hands regularly.</li>
+                          <li>Let students know when there are fewer people in a specific area.</li>
+                          <li>Tracking of UM confirmed COVID-19 cases in high-risk areas on campus.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Process</h3>
+                        <ol>
+                          <li>User research and interviews</li>
+                          <li>Competitive analysis</li>
+                          <li>Concept map</li>
+                          <li>User flow</li>
+                          <li>Site map</li>
+                          <li>Wireframes</li>
+                          <li>Prototype</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Target User</h3>
+                        <h4>UM students</h4>
+                        <ul>
+                          <li>Users care about their privacy.</li>
+                          <li>Users want to know when there are fewer people in a specific area.</li>
+                          <li>Don’t trust other people on campus.</li>
+                          <li>People want to determine the safety of a place before going there.</li>
+                        </ul>
+                    </div>
+                </div>
 
-  <div>
-    <h2>Project Description</h2>
-    <p>Since the start of school on August 17, more than 200 students and faculty members at the University of Miami have contracted the Coronavirus. It is very important to control the spread of the Coronavirus on campus. This project is the design of a <strong>location-based app focused on solving the problem of the spread of the Coronavirus</strong>, designed for a Human-Centered Design (HCD) class, Fall 2020.</p>
-  </div>
-
-  <div>
-    <h2>Project Scope</h2>
-      <h3>Current area of opportunity</h3>
-    <ul>
-      <li>How could we help students find protection resources on campus?</li>
-      <li>How could we Help students avoid contact with many people?</li>
-      <li>How could we remind students to keep social distancing and wear a mask?</li>
-      <li>How could we remind students to wash their hands regularly?</li>
-      <li>How could we let students know when there are less people in a specific area?</li>
-      <li>How could we keep track of UM covid confirmed cases?</li>
-    </ul>
-      
-      <h3>Why is this matters?</h3>
-    <ul>
-      <li>Prevent students from being exposed to the virus and reduce the chance of students getting the virus.</li>
-      <li>Control the spread of the virus and make life return to normal soon.</li>
-      <li>If students find protective items faster, then they can reduce the risk of contact with the virus.</li>
-      <li>If students know the UM covid confirmed cases, they will have a judgment about the degree of danger around them.</li>
-    </ul>
-      
-      <h3>What’s the barrier that gets in the way?</h3>
-    <ul>
-      <li>Our real time room density data is from our user, so the data may not be 100% correct.</li>
-      <li>Our users may not want to share their location with us, because of the privacy concerns.</li>
-      <li>We can only focus on student activities on campus, and cannot provide support for student activities outside of campus.</li>
-      <li>Confirmed patients on campus may not be willing to share their test result.</li>
-    </ul>
-  </div>
-    
-  <div>
-    <h2>Goals</h2>
-    <ul>
-      <li>Help students find protection resources on campus.</li>
-      <li>Help students avoid contact with too many people.</li>
-      <li>Help students to wash their hands regularly.</li>
-      <li>Let students know when there are fewer people in a specific area.</li>
-      <li>Tracking of UM confirmed COVID-19 cases in high-risk areas on campus.</li>
-    </ul>
-  </div>
-
-  <div>
-    <h2>Process</h2>
-    <ol>
-      <li>User research and interviews</li>
-      <li>Competitive analysis</li>
-      <li>Concept map</li>
-      <li>User flow</li>
-      <li>Site map</li>
-      <li>Wireframes</li>
-      <li>Prototype</li>
-    </ol>
-  </div>
-
-  <div>
-    <h2>Target User</h2>
-      <h3>UM students</h3>
-    <ul>
-      <li>Users care about their privacy.</li>
-      <li>Users want to know when there are fewer people in a specific area.</li>
-      <li>Don’t trust other people on campus.</li>
-      <li>People want to determine the safety of a place before going there.</li>
-    </ul>
-  </div>
-
-  <div>
-    <h2>Research</h2>
-      <h3>Sample size: 18 participants in total</h3>
-    <ul>
-      <li>44% female 56% male</li>
-      <li>9 participants for user segment A (students taking in-person or hybrid classes)</li>
-      <li>5 participants for user segment B (students taking only online classes)</li>
-      <li>4 participants for user segment C (faculty)</li>
-    </ul>
-    <p>The image below is the diagrams of our survey results.</p>
-  </div>
-  <figure><img src="images/StaySafeUMiami/Survey.webp" alt="Survey results"/></figure>
-  <div>
-    <h3>Affinity Diagrams</h3>
-    <p>We grouped our research findings using Affinity Diagrams.</p>
-  </div>
-  <figure><img src="images/StaySafeUMiami/Affinity_Diagrams.webp" alt="Affinity Diagrams"/></figure>
-  <div>
-    <h3>Research Findings</h3>
-    <ul>
-      <li>Students generally feel safe when they see sanitization being done.</li>
-      <li>Want information on hot zones, think it would be useful to know where people are contracting COVID on campus.</li>
-      <li>Think that if bi-weekly testing was made mandatory it would more impactful.</li>
-      <li>Concerned about people not taking COVID-19 seriously and unable to see where the virus has / could have been.</li>
-      <li>Would like to see testing sites near / on campus and more campus buildings in the location density feature.</li>
-    </ul>
-      <h3>Location Density</h3>
-    <ul>
-      <li>Peak time feature</li>
-      <li>The max capacity value is alarming</li>
-      <li>Accessibility for color blindness</li>
-      <li>Unsure what has changed after the location density refreshes</li>
-      <li>Way finding to the places shown in location density</li>
-    </ul>
-    <h3>How could we address these concerns?</h3>
-    <ul>
-      <li>We wanted to design an interactive campus map including a real-time location density feature with all the buildings / common spaces on campus</li>
-      <li>Wayfinding to campus buildings and essential resources (PPE, hand sanitizer, testing sites, etc.)</li>
-      <li>Peak time feature showing when a particular space is busiest / most clustered</li>
-      <li>Notification system for COVID-19 information such as the number of cases on campus</li>
-    </ul>
-  </div>
-    
-  <div>
-    <h2>Persona</h2>
-    <p>After conducting user research, I made two personas, and they are a student of the University of Miami and a professor of the University of Miami. I was tring to restore the people I met during user research and think about their needs during the design process.</p>
-  </div>
-  <figure><img src="images/StaySafeUMiami/StaySafe_Persona.webp" alt="Persona" /></figure>
-
-  <div>
-    <h2>Product Description</h2>
-    <p>The App Stay Safe UMIAMI will help UM students to find protection resources and testing locations on campus, avoid high risk areas on campus and update the population density of specific locations on campus in real time.
-    <br>There is a map of the Coral Gable campus of the University of Miami in this App, and we will mark the locations of different buildings, PPE stations and hand sanitizer stations on the map. When students want to find a PPE station or a hand sanitizer station on campus, they can use our app to navigate them to the nearest station.
-    <br>In some populated locations on campus such as libraries, restaurants, gyms, bookstores, etc., we will mark the density of people using colors and percentages next to the building on the map.</p>
-  </div>
-
-  <div>
-    <h2>Concept Map</h2>
-    <p>I created a concept map to help me organize my findings about how to keep safe on campus. Use this <a href="Stay-Safe-UMiami/StaySafeUMiami-Concept-Map.pdf" class="link">link</a> to visit the pdf file.</p>
-  </div>
-  <figure><img src="images/StaySafeUMiami/conceptmap.webp" alt="Concept map" /></figure>
-    
-  <div>
-    <h2>Features and Functions</h2>
-    <h3>Location Density</h3>
-    <p>In some populated locations on campus such as libraries, restaurants, gyms, bookstores, etc., the app marks the density of people using colors and gives users suggestions next to the building on the map.
-    <br>Users will see more information related to a location after they tap the icon near that location. For example, distance, location density and peak time, and the user can also see a “Make Appointment” button to make an appointment through the app.
-    </p>
-    <h3>PPE Station</h3>
-    <p>Mark the stations; Navigation to a station; Shows available protective equipment;</p>
-    <h3>Hand sanitizer stations</h3>
-    <p>Mark the stations; Navigation to a station; Shows how much hand sanitizer left in a hand sanitizer station;</p>
-    <h3>Restrooms</h3>
-    <p>Mark the restrooms; Navigation to a restroom;</p>
-    <h3>Testing stations</h3>
-    <p>Mark the stations; Navigation to a station; Check the Peak time; Make an appointment at the selected testing station;</p>
-    <h3>High-risk Areas</h3>
-    <p>Mark high-risk areas; Check confirmed cases in a selected high-risk area;</p>
-  </div>
-
-  <div>
-    <h2>Task Flow</h2>
-    <p>After I finished researching, I started to work on the task flow, which was divided into 6 tasks:</p>
-    <ol>
-      <li>Check location density in the Shall Student Center and make an appointment.</li>
-      <li>Check available protective equipment in a PPE station and find a route to the selected PPE station.</li>
-      <li>Check available Hand sanitizer in a Hand sanitizer station and find a route to the selected Hand sanitizer station.</li>
-      <li>Find a restroom on campus and find a route to the selected restroom.</li>
-      <li>Find High-risk areas on campus.</li>
-      <li>Make an appointment for a coronavirus test on campus.</li>
-    </ol>
-    <p>Below are the selected Task flows, or use this <a href="Stay-Safe-UMiami/TaskFlow.pdf" class="link">link</a> to visit the pdf file.</p>
-  </div>
-  <figure><img src="images/StaySafeUMiami/TaskFlow.webp" alt="Task Flow" /></figure>
-    
-  <div>
-    <h2>Site Map</h2>
-    <p>After I finished task flow, I was ready to create a sitemap to visually present an overview of my interface design. Use this <a href="Stay-Safe-UMiami/sitemap.pdf" class="link">link</a> to visit the pdf file.</p>
-  </div>
-  <figure><img src="images/StaySafeUMiami/sitemap.webp" alt="Site Map" /></figure>
-  <div>
-    <h2>Design Sketches</h2>
-    <p>The sketch helped me reorganize my thoughts (how can I include all the functions?) and present the functions. This sketch is also an important reference for my wireframe design.</p>
-  </div>
-  <figure><img src="images/StaySafeUMiami/sketch.webp" alt="sketch" /></figure>
-  <div>
-    <h2>Wireframes</h2>
-    <p>According to the sketch, I created the first version of the wireframe design. I was trying to make the app simple and easy to use. I used Adobe XD to create the following pages.Use this <a href="https://xd.adobe.com/view/c3530ffd-efa5-4943-ba30-5cdd72b588dd-9600/" class="link">link</a> to view full wireframes.</p>
-  </div>
-  <figure><img src="images/StaySafeUMiami/Wireframes.webp" alt="Wireframes" /></figure>
-  <div>
-    <h2>Annotated Wireframes</h2>
-    <p>The pages below there are the annotated wireframes for the app design.<br>Use this <a href="Stay-Safe-UMiami/Annotated-Wireframes.pdf" class="link">link</a> to view full annotated wireframes.</p>
-  </div>
-  <figure>
-    <img src="images/StaySafeUMiami/AnnotatedWireframes-TestingLocation.webp" alt="Annotated Wireframes-TestingLocation" />
-  </figure>
-  <div>
-    <h2>Style Guide</h2>
-    <p>Since the app is made for Students at University of Miami, so I was trying to match the UMiami Color.<br>The icons were downloaded from iconfinder. The map was downloaded from miami.edu.</p>
-  </div>
-  <figure>
-    <img src="images/StaySafeUMiami/StyleGuide.webp" alt="icons,color,buttons" />
-  </figure>
-  <div>
-    <h2>Final Prototype</h2>
-      <p>After all the research and wireframes, I finally created the prototype. The prototype is very similar to the wireframes.<br> Below are the selected pages of the final prototype and a video-Walkthrough of all the main functionality for Stay Safe UMiami app.<br>Use this <a href="https://xd.adobe.com/view/e0f506ba-1e79-4c9f-ae2e-cec6e9fb26fe-b5a6/" class="link">link</a> to view the interactive final prototype.</p>
-  </div>
-  <figure>
-    <img src="images/StaySafeUMiami/Final-Prototype.webp" alt="Final Prototype" />
-    <div class="containeriframe">
-    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ih5PoZhYSnU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </figure>
-</section>
-
-<footer class="container footer">
-  <a href="https://dribbble.com/HaoranZhang">Dribbble</a> <a href="mailto: horanzh@gmail.com">Email</a>
-</footer>
-
-</body>
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Research</h3>
+                          <h4>Sample size: 18 participants in total</h4>
+                        <ul>
+                          <li>44% female 56% male</li>
+                          <li>9 participants for user segment A (students taking in-person or hybrid classes)</li>
+                          <li>5 participants for user segment B (students taking only online classes)</li>
+                          <li>4 participants for user segment C (faculty)</li>
+                        </ul>
+                        <p>The image below is the diagrams of our survey results.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-60 show-on-scroll" src="assets/images/StaySafeUMiami/Survey.webp" alt="Survey" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h4>Affinity Diagrams</h4>
+                          <p>We grouped our research findings using Affinity Diagrams.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/StaySafeUMiami/Affinity_Diagrams.webp" alt="Affinity Diagrams" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Research Findings</h3>
+                        <ul>
+                          <li>Students generally feel safe when they see sanitization being done.</li>
+                          <li>Want information on hot zones, think it would be useful to know where people are contracting COVID on campus.</li>
+                          <li>Think that if bi-weekly testing was made mandatory it would more impactful.</li>
+                          <li>Concerned about people not taking COVID-19 seriously and unable to see where the virus has / could have been.</li>
+                          <li>Would like to see testing sites near / on campus and more campus buildings in the location density feature.</li>
+                        </ul>
+                        <br>
+                          <h4>Location Density</h4>
+                        <ul>
+                          <li>Peak time feature</li>
+                          <li>The max capacity value is alarming</li>
+                          <li>Accessibility for color blindness</li>
+                          <li>Unsure what has changed after the location density refreshes</li>
+                          <li>Way finding to the places shown in location density</li>
+                        </ul>
+                        <br>
+                        <h4>How could we address these concerns?</h4>
+                        <ul>
+                          <li>We wanted to design an interactive campus map including a real-time location density feature with all the buildings / common spaces on campus</li>
+                          <li>Wayfinding to campus buildings and essential resources (PPE, hand sanitizer, testing sites, etc.)</li>
+                          <li>Peak time feature showing when a particular space is busiest / most clustered</li>
+                          <li>Notification system for COVID-19 information such as the number of cases on campus</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Persona</h3>
+                        <p>After conducting user research, I made two personas, and they are a student of the University of Miami and a professor of the University of Miami. I was tring to restore the people I met during user research and think about their needs during the design process.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/StaySafeUMiami/StaySafe_Persona.webp" alt="Persona" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Product Description</h3>
+                        <p>The App Stay Safe UMIAMI will help UM students to find protection resources and testing locations on campus, avoid high risk areas on campus and update the population density of specific locations on campus in real time.
+                        <br>There is a map of the Coral Gable campus of the University of Miami in this App, and we will mark the locations of different buildings, PPE stations and hand sanitizer stations on the map. When students want to find a PPE station or a hand sanitizer station on campus, they can use our app to navigate them to the nearest station.
+                        <br>In some populated locations on campus such as libraries, restaurants, gyms, bookstores, etc., we will mark the density of people using colors and percentages next to the building on the map.</p>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Concept Map</h3>
+                        <p>I created a concept map to help me organize my findings about how to keep safe on campus. Use this <a href="assets/pdf/Stay-Safe-UMiami/StaySafeUMiami-Concept-Map.pdf" class="link">link</a> to visit the pdf file.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/StaySafeUMiami/conceptmap.webp" alt="Concept Maps" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Features and Functions</h3>
+                        <h4>Location Density</h4>
+                        <p>In some populated locations on campus such as libraries, restaurants, gyms, bookstores, etc., the app marks the density of people using colors and gives users suggestions next to the building on the map.
+                        <br>Users will see more information related to a location after they tap the icon near that location. For example, distance, location density and peak time, and the user can also see a “Make Appointment” button to make an appointment through the app.
+                        <br>
+                        <strong>PPE Station: </strong>Mark the stations; Navigation to a station; Shows available protective equipment;<br>
+                        <strong>Hand sanitizer stations: </strong>Mark the stations; Navigation to a station; Shows how much hand sanitizer left in a hand sanitizer station;<br>
+                        <strong>Restrooms: </strong>Mark the restrooms; Navigation to a restroom;<br>
+                        <strong>Testing stations: </strong>Mark the stations; Navigation to a station; Check the Peak time; Make an appointment at the selected testing station;<br>
+                        <strong>High-risk Areas: </strong>Mark high-risk areas; Check confirmed cases in a selected high-risk area;</p>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Task Flow</h3>
+                        <p>After I finished researching, I started to work on the task flow, which was divided into 6 tasks:</p>
+                        <ol>
+                          <li>Check location density in the Shall Student Center and make an appointment.</li>
+                          <li>Check available protective equipment in a PPE station and find a route to the selected PPE station.</li>
+                          <li>Check available Hand sanitizer in a Hand sanitizer station and find a route to the selected Hand sanitizer station.</li>
+                          <li>Find a restroom on campus and find a route to the selected restroom.</li>
+                          <li>Find High-risk areas on campus.</li>
+                          <li>Make an appointment for a coronavirus test on campus.</li>
+                        </ol>
+                        <p>Below are the selected Task flows, or use this <a href="assets/pdf/Stay-Safe-UMiami/TaskFlow.pdf" class="link">link</a> to visit the pdf file.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/StaySafeUMiami/TaskFlow.webp" alt="Task Flow" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Site Map</h3>
+                        <p>After I finished task flow, I was ready to create a sitemap to visually present an overview of my interface design. Use this <a href="assets/pdf/Stay-Safe-UMiami/sitemap.pdf" class="link">link</a> to visit the pdf file.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/StaySafeUMiami/sitemap.webp" alt="Site Map" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Design Sketches</h3>
+                        <p>The sketch helped me reorganize my thoughts (how can I include all the functions?) and present the functions. This sketch is also an important reference for my wireframe design.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/StaySafeUMiami/sketch.webp" alt="Sketches" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Wireframes</h3>
+                        <p>According to the sketch, I created the first version of the wireframe design. I was trying to make the app simple and easy to use. I used Adobe XD to create the following pages.Use this <a href="https://xd.adobe.com/view/c3530ffd-efa5-4943-ba30-5cdd72b588dd-9600/" class="link">link</a> to view full wireframes.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/StaySafeUMiami/Wireframes.webp" alt="wireframe" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Annotated Wireframes</h3>
+                        <p>The pages below there are the annotated wireframes for the app design. Use this <a href="assets/pdf/Stay-Safe-UMiami/Annotated-Wireframes.pdf" class="link">link</a> to view full annotated wireframes.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/StaySafeUMiami/AnnotatedWireframes-TestingLocation.webp" alt="Annotated Wireframes" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Style Guide</h3>
+                        <p>Since the app is made for Students at University of Miami, so I was trying to match the UMiami Color.<br>The icons were downloaded from iconfinder. The map was downloaded from miami.edu.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/StaySafeUMiami/StyleGuide.webp" alt="Style Guide" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Final Prototype</h3>
+                        <p>After all the research and wireframes, I finally created the prototype. The prototype is very similar to the wireframes.<br> Below are the selected pages of the final prototype and a video-Walkthrough of all the main functionality for Stay Safe UMiami app.<br>Use this <a href="https://xd.adobe.com/view/c3530ffd-efa5-4943-ba30-5cdd72b588dd-9600/" class="link">link</a> to view the interactive final prototype.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-60 show-on-scroll" src="assets/images/StaySafeUMiami/Final-Prototype.webp" alt="Final Prototype" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                <div class="containeriframe">
+                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ih5PoZhYSnU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                </div>
+                
+                <div class="page-navigation mt-60">
+                    <a href="error-reporting-system.html" class="btn btn-clean"><svg class="icon-arrow icon-arrow-left" width='26' height='11' viewBox='0 0 26 11' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <path d='M5.5 1L1 5.5L5.5 10' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
+                            <path d='M19 5.5H1' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' /></svg>prev<span class="d-none d-sm-inline"> project</span></a>
+                    <a href="index.html" class="btn btn-light btn-circle btn-xs">all</a>
+                    <a href="munchai.html" class="btn btn-clean">next<span class="d-none d-sm-inline"> project</span><svg class="icon-arrow icon-arrow-right" width='26' height='11' viewBox='0 0 26 11' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <path d='M20.5 1L25 5.5L20.5 10' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
+                            <path d='M7 5.5H25' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' /></svg></a>
+                </div>
+            </div>
+        </div>
+        <footer class="footer overflow-hidden pb-60">
+            <div class="container pb-10">
+                <hr class="mb-10 pb-30">
+                <div class="row gh-1 gv-2">
+                    <div class="col-12 col-md mt-md-04">
+                        <a href="index.html">
+                            <img width="108" src="assets/images/logo.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 mt-md-04">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="callto:+1 (513)570-3636" class="nav-link">+1 (513)570-3636</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="mailto:horanzh@gmail.com" class="nav-link">horanzh@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- START: Scripts -->
+        <!-- Object Fit Polyfill -->
+        <script src="assets/vendor/object-fit-images/dist/ofi.min.js"></script>
+        <!-- Popper -->
+        <script src="assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- Bootstrap Validator -->
+        <script src="assets/vendor/bootstrap-validator/dist/validator.min.js"></script>
+        <!-- ImagesLoaded -->
+        <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+        <!-- Swiper -->
+        <script src="assets/vendor/swiper/dist/js/swiper.min.js"></script>
+        <!-- Animejs -->
+        <script src="assets/vendor/animejs/lib/anime.min.js"></script>
+        <!-- Rellax -->
+        <script src="assets/vendor/rellax/rellax.min.js"></script>
+        <!-- Countdown -->
+        <script src="assets/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
+        <!-- Moment.js -->
+        <script src="assets/vendor/moment/min/moment.min.js"></script>
+        <script src="assets/vendor/moment-timezone/builds/moment-timezone-with-data.min.js"></script>
+        <!-- Isotope -->
+        <script src="assets/vendor/isotope-layout/dist/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/isotope-packery/packery-mode.pkgd.min.js"></script>
+        <!-- Jarallax -->
+        <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
+        <script src="assets/vendor/jarallax/dist/jarallax-video.min.js"></script>
+        <!-- Fancybox -->
+        <script src="assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+        <!-- Themebau -->
+        <script src="assets/js/themebau.min.js"></script>
+        <!-- END: Scripts -->
+    </body>
 </html>

@@ -1,185 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, user-scalable=no">
-<meta charset="UTF-8">
-<title>Haoran-Munch AI App Design</title>
-<link rel="stylesheet" href="css/style.css">
-<link rel="icon" type="image/png" href="images/icon.png">
-</head>
-<body>
-<div class="header">
-    <div class="logo"><a href="index.html">HZ.</a></div>
-  <ul class="nav clearFix">
-    <li id="work"><a href="index.html" class="hidden">Work</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="https://dribbble.com/HaoranZhang">Dribbble</a></li>
-    <li><a href="mailto: horanzh@gmail.com">Email</a></li>
-  </ul>
-</div>
-
-<!--HEAD-->
-<section class="container article-head">
-  <h1>MunchAI</h1>
-  <div class="banner">
-    <img src="images/MunchAI/MunchAI_Prototype.webp">
-  </div>
-</section>
-
-<!--MAIN-->
-<section class="container article-body">
-  <section class="rdt">
-    <div>
-      <h2>Role</h2>
-      <p>UX/UI Designer</p>
-    </div>
-    <div>
-      <h2>Duration</h2>
-      <p>Nov 9, 2020 - Dec 4, 2020 <br> 5 weeks</p>
-    </div>
-    <div>
-      <h2>Team</h2>
-      <p>Research with a 2-person team <br> Design individually</p>
-    </div>
-  </section>
-
-  <div>
-    <h2>Product Description</h2>
-    <p>Munch AI is an AI app that will identify what’s on the plate and calculate the percentage of the types of food group observed (protein, fat, carb...etc). It will then show how much of the daily nutrient requirement has been reached. After that, <strong>the app will give suggestions on what your next meal should be</strong> so you get all the nutrients you need in a day to sustain a healthy, nutritious diet.<br>
-    We will focus on popular fast-food restaurants, including Shake Shack, McDonald's, Wendy’s, etc. Because that will help us to find clear nutrition information on their menu items.<br>
-    The tools we used to design this AI application were Adobe illustrator and Miro for the mind map, concept map and personas, Adobe XD for prototyping and Xcode developer tool for testing and training the model for image recognition. Designed for a Design with AI class, Fall 2020.</p>
-  </div>
-    
-  <div>
-    <h2>Goal</h2>
-    <ul>
-       <li>Helps users to know more about what they eat.</li>
-       <li>Allow people to track their nutrient intake.</li>
-       <li>Helps users to get a well balanced diet.</li>
-       <li>Next meal suggestions based on users' nutrient intake.</li>
-    </ul>
-  </div>
-
-  <div>
-    <h2>Process</h2>
-    <ol>
-      <li>Competitor analysis</li>
-      <li>Concept map</li>
-      <li>Persona</li>
-      <li>User flow</li>
-      <li>Site map</li>
-      <li>Sketch</li>
-      <li>Wireframes</li>
-      <li>User testing</li>
-      <li>Prototype</li>
-    </ol>
-  </div>
-    
-  <div>
-    <h2>Target User</h2>
-    <p>The target user of this app will be for anyone who is looking to be healthy and want to learn more about their food choices and see if they have met the daily nutrient intake requirement.</p>
-  </div>
-
-  <div>
-    <h2>Competitor Analysis</h2>
-      <p>We did two competitor analysis to identify competitors, and understand their pros and cons.</p>
-  </div>
-  <figure><img src="images/MunchAI/Competitor_analysis.webp" alt="Competitor analysis" /></figure>
-    
-  <div>    
-  <h2>Concept Map</h2>
-    <p>We first put together a mind map that helps us brainstorm and ideate. Then we used the mind map to create a concept map to help us identify and define the features and functions. The concept map is shown below, or use this <a href="MunchAI/MunchAI-concept-map.pdf" class="link">link</a> to visit the pdf file.</p>
-  </div>
-  <figure><img src="images/MunchAI/Concept_map.webp" alt="Concept map" /></figure>
-
-  <div>
-    <h2>Features and Functions</h2>
-    <ul>
-      <li>Identify food by image recognition.</li>
-      <li>Next meal suggestions.</li>
-      <li>Show nutrient content of the food.</li>
-      <li>Calculate daily nutrient requirement.</li>
-      <li>Show how much of the daily nutrient requirement has been reached.</li>
-      <li>Add a meal by user input.</li>
-      <li>Set users' height and weight.</li>
-      <li>View meal history.</li>
-    </ul>
-  </div>
-    
-  <div>    
-  <h2>Persona</h2>
-    <p>From the list of features we sketched out the rough idea of how we want to have our app to look like. Next we created two personas to help us identify our target user group. Our target user group would be for people who want to eat healthy and keep track of their calories intake. They are interested in learning more about the nutrient content in the food they eat as well as getting next meal suggestions. The feature of providing next meal suggestion is an example of anticipatory design that improves the quality of decision making. It is a method of simplifying processes to the needs of users one step ahead of the user’s decision.</p>
-  </div>
-  <figure><img src="images/MunchAI/MunchAI_Persona.webp" alt="Persona" /></figure>
-    
-  <div>
-  <h2>Task Flow</h2>
-    <p>We create a few task flows to identify key activities and interactions. Selected task flows are shown below.</p>
-  </div>
-  <figure><img src="images/MunchAI/user_flow.webp" alt="Task Flow" /></figure>
-    
-  <div>
-    <h2>Site Map</h2>
-    <p>After I finished task flows, I was ready to create a sitemap to define the information structure and what is presented in the MunchAI app. Site map is shown below.</p>
-  </div>
-  <figure><img src="images/MunchAI/Sitemap.webp" alt="Site Map" /></figure>
-    
-  <div>
-    <h2>Design Sketches</h2>
-    <p>Finally, we are ready to start our design, we started designing rough sketches of the app. After trying a lot of different sketches, these sketches help us to identify the interaction and app layouts for the prototype design. Selected final sketches are shown below.</p>
-  </div>
-  <figure><img src="images/MunchAI/Sketch.webp" alt="sketch" /></figure>
-    
-  <div>
-    <h2>Wireframes</h2>
-    <p>According to the sketches, I created the first version of the wireframe design. I used Adobe XD to create the following pages. Selected wireframes are shown below, or use this <a href="https://xd.adobe.com/view/b5f7f6aa-e091-43e6-be2f-9ed99285cbc2-e0a4/" class="link">link</a> to view full wireframes.</p>
-  </div>
-  <figure><img src="images/MunchAI/Wireframes.webp" alt="Wireframes" /></figure>
-    
-  <div>
-    <h2>Annotated Wireframes</h2>
-    <p>In the pages below there are the selected annotated wireframe for MunchAI App design. Use this <a href="MunchAI/MunchAI-Annotated-Wireframes.pdf" class="link">link</a> to view full annotated wireframes.</p>
-  </div>
-  <figure>
-    <img src="images/MunchAI/Annotated-Wireframes.webp" alt="Annotated Wireframes-TestingLocation" />
-  </figure>
-  
-  <div>
-    <h2>User Testing</h2>
-    <p>We wrote a usability test script and did four usability tests using our prototype. Below are the tasks on our usability test script.</p>
-    <ol>
-      <li>Check meal history.</li>
-      <li>Find where you can set your height and weight</li>
-      <li>Add a meal from shake shack.</li>
-      <li>Use the flashlight to take the image</li>
-      <li>Get next meal suggestion</li>
-      <li>Take a picture of your meal.</li>
-    </ol>
-    <p>After having our prototype tested our participants said that the prototype was simple to use. However there are areas where we can improve on the interaction of the app. Below there are the main feedbacks we got from the user testing.<br>Use this <a href="MunchAI/MunchAI-Feedbacks.pdf" class="link">link</a> to view all feedbacks.</p>
-  </div>
-  <figure><img src="images/MunchAI/MunchAI-Feedback.webp" alt="Feedbacks" /></figure>
-    
-  <div>
-    <h2>Style Guide</h2>
-    <p>I use green as the main color of the MunchAI app to represent a healthy life style. I created this style guide and started the final prototype design according to this style guide.<br>The icons were downloaded from iconfinder.</p>
-  </div>
-  <figure><img src="images/MunchAI/StyleGuide.webp" alt="Style Guide" /></figure>
-    
-  <div>
-    <h2>Final Prototype</h2>
-    <p>After all the research and wireframes, I finally created the final prototype. Below are the selected pages of the final prototype and the video-Walkthrough of all the main functionality for MunchAI.<br>Use this <a href="https://xd.adobe.com/view/7983eec5-7f77-4094-8867-55738e127e93-2cd0/" class="link">link</a> to view the interactive final prototype.</p>
-  </div>
-  <figure>
-    <img src="images/MunchAI/Final-Prototype.webp" alt="Final Prototype" />
-    <div class="containeriframe">
-    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Fll-7xLBvM8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </figure>
-</section>
-
-<footer class="container footer">
-  <a href="https://dribbble.com/HaoranZhang">Dribbble</a> <a href="mailto: horanzh@gmail.com">Email</a>
-</footer>
-
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Haoran's Portfolio</title>
+        <meta name="description" content="Themebau">
+        <meta name="author" content="RunWebRun">
+        <link rel="icon" type="image/png" href="assets/images/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- START: Styles -->
+        <!-- Swiper -->
+        <link rel="stylesheet" href="assets/vendor/swiper/dist/css/swiper.min.css" />
+        <!-- Fancybox -->
+        <link rel="stylesheet" href="assets/vendor/fancybox/dist/jquery.fancybox.min.css" />
+        <!-- Themebau -->
+        <link rel="stylesheet" href="assets/css/themebau.min.css">
+        <!-- Custom Styles -->
+        <link rel="stylesheet" href="assets/css/custom.css">
+        <!-- END: Styles -->
+        <!-- jQuery -->
+        <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+    </head>
+    <body>
+        <header class="navbar navbar-top navbar-expand navbar-fixed">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img width="107" src="assets/images/logo.svg" alt="">
+                </a>
+                <a class="navbar-toggle" href="#navbar-mobile-style-2" data-fancybox data-base-class="fancybox-navbar" data-keyboard="false" data-auto-focus="false" data-touch="false" data-close-existing="true" data-small-btn="false" data-toolbar="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+                <ul class="nav navbar-nav">
+                    
+                    <li class="nav-item navbar-dropdown navbar-dropdown-mega active">
+                        <a href="index.html" class="nav-link">
+                            <span class="nav-link-name">work</span>
+                            <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 9L5 5L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item navbar-dropdown">
+                        <a href="about.html" class="nav-link">
+                            <span class="nav-link-name">about</span>
+                            <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 9L5 5L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item navbar-dropdown">
+                        <a href="https://dribbble.com/HaoranZhang" class="nav-link">
+                            <span class="nav-link-name">dribbble</span>
+                            <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 9L5 5L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item navbar-dropdown">
+                        <a href="mailto:horanzh@gmail.com" class="nav-link">
+                            <span class="nav-link-name">email</span>
+                            <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 9L5 5L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </header>
+        <!-- style 2 -->
+        <div class="navbar navbar-mobile navbar-mobile-style-2" id="navbar-mobile-style-2">
+            <div class="shape justify-content-end">
+                <svg data-rellax-speed="0" width="544" height="362" viewBox="0 0 544 362" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="320.5" cy="41.5" r="320.5" fill="#F5F5F5" />
+                </svg>
+            </div>
+            <div class="navbar-head">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img width="107" src="assets/images/logo.svg" alt="">
+                    </a>
+                    <a class="navbar-toggle" href="#" data-fancybox-close>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row gh-1 justify-content-center">
+                    <div class="col-12 col-md-7 col-lg-5 col-xl-4">
+                        <div class="navbar-body">
+                            <ul class="nav navbar-nav navbar-nav-collapse">
+                                <li class="nav-item navbar-collapse">
+                                    <a href="index.html" class="nav-link collapsed" role="button" aria-expanded="false">
+                                        <span class="nav-link-name">Work</span>
+                                        <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                
+                                <li class="nav-item navbar-collapse">
+                                    <a href="about.html" class="nav-link collapsed" role="button" aria-expanded="false">
+                                        <span class="nav-link-name">About</span>
+                                        <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                
+                                <li class="nav-item navbar-collapse">
+                                    <a href="https://dribbble.com/HaoranZhang" class="nav-link collapsed" role="button" aria-expanded="false">
+                                        <span class="nav-link-name">Dribbble</span>
+                                        <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="nav-item navbar-collapse">
+                                    <a href="mailto:horanzh@gmail.com" class="nav-link collapsed" role="button" aria-expanded="false">
+                                        <span class="nav-link-name">Email</span>
+                                        <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-1 d-none d-md-block"></div>
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-3">
+                        <div class="navbar-footer">
+                            <div class="mb-60">
+                                <p class="lead mb-17 font-weight-medium">Contact info:</p>
+                                <ul class="list-group borderless font-size-17">
+                                    <li class="list-group-item">Email: <a href="mailto:horanzh@gmail.com">horanzh@gmail.com</a></li>
+                                    <li class="list-group-item">Phone: <a href="callto:+1 (513)570-3636">+1 (513)570-3636</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-wrap">
+            <div class="container">
+                <div class="row justify-content-center text-center pt-60 pb-130 mt-30">
+                    <div class="col-12 col-lg-8">
+                        <h1 class="h2 mb-n10 show-on-scroll" data-show-duration="500" data-show-distance="10">MunchAI</h1>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/MunchAI/MunchAI_Prototype.webp" alt="MunchAI Prototype" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h2>Role: UX/UI Designer</h2>
+                        <h2>Duration: Nov 9, 2020 - Dec 4, 2020 (5 weeks)</h2>
+                        <h2>Team: Research with a 2-person team, Design individually</h2>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Product Description</h3>
+                        <p>Munch AI is an AI app that will identify what’s on the plate and calculate the percentage of the types of food group observed (protein, fat, carb...etc). It will then show how much of the daily nutrient requirement has been reached. After that, <strong>the app will give suggestions on what your next meal should be</strong> so you get all the nutrients you need in a day to sustain a healthy, nutritious diet.<br>
+                        We will focus on popular fast-food restaurants, including Shake Shack, McDonald's, Wendy’s, etc. Because that will help us to find clear nutrition information on their menu items.<br>
+                        The tools we used to design this AI application were Adobe illustrator and Miro for the mind map, concept map and personas, Adobe XD for prototyping and Xcode developer tool for testing and training the model for image recognition. Designed for a Design with AI class, Fall 2020.</p>
+                    </div>
+                </div>
+                
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Goals</h3>
+                        <ul>
+                           <li>Helps users to know more about what they eat.</li>
+                           <li>Allow people to track their nutrient intake.</li>
+                           <li>Helps users to get a well balanced diet.</li>
+                           <li>Next meal suggestions based on users' nutrient intake.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Process</h3>
+                        <ol>
+                          <li>Competitor analysis</li>
+                          <li>Concept map</li>
+                          <li>Persona</li>
+                          <li>User flow</li>
+                          <li>Site map</li>
+                          <li>Sketch</li>
+                          <li>Wireframes</li>
+                          <li>User testing</li>
+                          <li>Prototype</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Target User</h3>
+                        <p>The target user of this app will be for anyone who is looking to be healthy and want to learn more about their food choices and see if they have met the daily nutrient intake requirement.</p>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Competitor Analysis</h3>
+                        <p>We did two competitor analysis to identify competitors, and understand their pros and cons.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/MunchAI/Competitor_analysis.webp" alt="Competitor analysis" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Concept Map</h3>
+                        <p>We first put together a mind map that helps us brainstorm and ideate. Then we used the mind map to create a concept map to help us identify and define the features and functions. The concept map is shown below, or use this <a href="assets/pdf/MunchAI/MunchAI-concept-map.pdf" class="link">link</a> to visit the pdf file.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/MunchAI/Concept_map.webp" alt="Concept Maps" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Features and Functions</h3>
+                        <ul>
+                          <li>Identify food by image recognition.</li>
+                          <li>Next meal suggestions.</li>
+                          <li>Show nutrient content of the food.</li>
+                          <li>Calculate daily nutrient requirement.</li>
+                          <li>Show how much of the daily nutrient requirement has been reached.</li>
+                          <li>Add a meal by user input.</li>
+                          <li>Set users' height and weight.</li>
+                          <li>View meal history.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Persona</h3>
+                        <p>From the list of features we sketched out the rough idea of how we want to have our app to look like. Next we created two personas to help us identify our target user group. Our target user group would be for people who want to eat healthy and keep track of their calories intake. They are interested in learning more about the nutrient content in the food they eat as well as getting next meal suggestions. The feature of providing next meal suggestion is an example of anticipatory design that improves the quality of decision making. It is a method of simplifying processes to the needs of users one step ahead of the user’s decision.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/MunchAI/MunchAI_Persona.webp" alt="Persona" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Task Flow</h3>
+                        <p>We create a few task flows to identify key activities and interactions. Selected task flows are shown below.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/MunchAI/user_flow.webp" alt="Task Flow" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Site Map</h3>
+                        <p>After I finished task flows, I was ready to create a sitemap to define the information structure and what is presented in the MunchAI app. Site map is shown below.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/MunchAI/Sitemap.webp" alt="Site Map" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Design Sketches</h3>
+                        <p>Finally, we are ready to start our design, we started designing rough sketches of the app. After trying a lot of different sketches, these sketches help us to identify the interaction and app layouts for the prototype design. Selected final sketches are shown below.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/MunchAI/Sketch.webp" alt="Sketches" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Wireframes</h3>
+                        <p>According to the sketches, I created the first version of the wireframe design. I used Adobe XD to create the following pages. Selected wireframes are shown below, or use this <a href="https://xd.adobe.com/view/b5f7f6aa-e091-43e6-be2f-9ed99285cbc2-e0a4/" class="link">link</a> to view full wireframes.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/MunchAI/Wireframes.webp" alt="wireframe" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Annotated Wireframes</h3>
+                        <p>In the pages below there are the selected annotated wireframe for MunchAI App design. Use this <a href="assets/pdf/MunchAI/MunchAI-Annotated-Wireframes.pdf" class="link">link</a> to view full annotated wireframes.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/MunchAI/Annotated-Wireframes.webp" alt="Annotated Wireframes" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>User Testing</h3>
+                        <p>We wrote a usability test script and did four usability tests using our prototype. Below are the tasks on our usability test script.</p>
+                        <ol>
+                          <li>Check meal history.</li>
+                          <li>Find where you can set your height and weight</li>
+                          <li>Add a meal from shake shack.</li>
+                          <li>Use the flashlight to take the image</li>
+                          <li>Get next meal suggestion</li>
+                          <li>Take a picture of your meal.</li>
+                        </ol>
+                        <p> After having our prototype tested our participants said that the prototype was simple to use. However there are areas where we can improve on the interaction of the app. Below there are the main feedbacks we got from the user testing.<br>Use this <a href="assets/pdf/MunchAI/MunchAI-Feedbacks.pdf" class="link">link</a> to view all feedbacks.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/MunchAI/MunchAI-Feedback.webp" alt="Feedbacks" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Style Guide</h3>
+                        <p>I use green as the main color of the MunchAI app to represent a healthy life style. I created this style guide and started the final prototype design according to this style guide.<br>The icons were downloaded from iconfinder.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/MunchAI/StyleGuide.webp" alt="Style Guide" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Final Prototype</h3>
+                        <p>After all the research and wireframes, I finally created the final prototype. Below are the selected pages of the final prototype and the video-Walkthrough of all the main functionality for MunchAI.<br>Use this <a href="https://xd.adobe.com/view/7983eec5-7f77-4094-8867-55738e127e93-2cd0/" class="link">link</a> to view the interactive final prototype.</p>
+                        
+                    </div>
+                </div>
+                <img class="w-100 mb-60 show-on-scroll" src="assets/images/MunchAI/Final-Prototype.webp" alt="Final Prototype" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                <div class="containeriframe">
+                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Fll-7xLBvM8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                </div>
+                
+                <div class="page-navigation mt-60">
+                    <a href="stay-safe-umiami.html" class="btn btn-clean"><svg class="icon-arrow icon-arrow-left" width='26' height='11' viewBox='0 0 26 11' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <path d='M5.5 1L1 5.5L5.5 10' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
+                            <path d='M19 5.5H1' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' /></svg>prev<span class="d-none d-sm-inline"> project</span></a>
+                    <a href="index.html" class="btn btn-light btn-circle btn-xs">all</a>
+                    <a href="josephinum-academy.html" class="btn btn-clean">next<span class="d-none d-sm-inline"> project</span><svg class="icon-arrow icon-arrow-right" width='26' height='11' viewBox='0 0 26 11' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <path d='M20.5 1L25 5.5L20.5 10' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
+                            <path d='M7 5.5H25' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' /></svg></a>
+                </div>
+            </div>
+        </div>
+        <footer class="footer overflow-hidden pb-60">
+            <div class="container pb-10">
+                <hr class="mb-10 pb-30">
+                <div class="row gh-1 gv-2">
+                    <div class="col-12 col-md mt-md-04">
+                        <a href="index.html">
+                            <img width="108" src="assets/images/logo.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 mt-md-04">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="callto:+1 (513)570-3636" class="nav-link">+1 (513)570-3636</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="mailto:horanzh@gmail.com" class="nav-link">horanzh@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- START: Scripts -->
+        <!-- Object Fit Polyfill -->
+        <script src="assets/vendor/object-fit-images/dist/ofi.min.js"></script>
+        <!-- Popper -->
+        <script src="assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- Bootstrap Validator -->
+        <script src="assets/vendor/bootstrap-validator/dist/validator.min.js"></script>
+        <!-- ImagesLoaded -->
+        <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+        <!-- Swiper -->
+        <script src="assets/vendor/swiper/dist/js/swiper.min.js"></script>
+        <!-- Animejs -->
+        <script src="assets/vendor/animejs/lib/anime.min.js"></script>
+        <!-- Rellax -->
+        <script src="assets/vendor/rellax/rellax.min.js"></script>
+        <!-- Countdown -->
+        <script src="assets/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
+        <!-- Moment.js -->
+        <script src="assets/vendor/moment/min/moment.min.js"></script>
+        <script src="assets/vendor/moment-timezone/builds/moment-timezone-with-data.min.js"></script>
+        <!-- Isotope -->
+        <script src="assets/vendor/isotope-layout/dist/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/isotope-packery/packery-mode.pkgd.min.js"></script>
+        <!-- Jarallax -->
+        <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
+        <script src="assets/vendor/jarallax/dist/jarallax-video.min.js"></script>
+        <!-- Fancybox -->
+        <script src="assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+        <!-- Themebau -->
+        <script src="assets/js/themebau.min.js"></script>
+        <!-- END: Scripts -->
+    </body>
 </html>

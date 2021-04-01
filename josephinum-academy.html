@@ -1,207 +1,426 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, user-scalable=no">
-<meta charset="UTF-8">
-<title>Haoran-Josephinum Academy of the Sacred Heart</title>
-<link rel="stylesheet" href="css/style.css">
-<link rel="icon" type="image/png" href="images/icon.png">
-</head>
-<body>
-<div class="header">
-    <div class="logo"><a href="index.html">HZ.</a></div>
-  <ul class="nav clearFix">
-    <li id="work"><a href="index.html" class="hidden">Work</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="https://dribbble.com/HaoranZhang">Dribbble</a></li>
-    <li><a href="mailto: horanzh@gmail.com">Email</a></li>
-  </ul>
-</div>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Haoran's Portfolio</title>
+        <meta name="description" content="Themebau">
+        <meta name="author" content="RunWebRun">
+        <link rel="icon" type="image/png" href="assets/images/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- START: Styles -->
+        <!-- Swiper -->
+        <link rel="stylesheet" href="assets/vendor/swiper/dist/css/swiper.min.css" />
+        <!-- Fancybox -->
+        <link rel="stylesheet" href="assets/vendor/fancybox/dist/jquery.fancybox.min.css" />
+        <!-- Themebau -->
+        <link rel="stylesheet" href="assets/css/themebau.min.css">
+        <!-- Custom Styles -->
+        <link rel="stylesheet" href="assets/css/custom.css">
+        <!-- END: Styles -->
+        <!-- jQuery -->
+        <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+    </head>
+    <body>
+        <header class="navbar navbar-top navbar-expand navbar-fixed">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img width="107" src="assets/images/logo.svg" alt="">
+                </a>
+                <a class="navbar-toggle" href="#navbar-mobile-style-2" data-fancybox data-base-class="fancybox-navbar" data-keyboard="false" data-auto-focus="false" data-touch="false" data-close-existing="true" data-small-btn="false" data-toolbar="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+                <ul class="nav navbar-nav">
+                    
+                    <li class="nav-item navbar-dropdown navbar-dropdown-mega active">
+                        <a href="index.html" class="nav-link">
+                            <span class="nav-link-name">work</span>
+                            <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 9L5 5L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item navbar-dropdown">
+                        <a href="about.html" class="nav-link">
+                            <span class="nav-link-name">about</span>
+                            <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 9L5 5L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item navbar-dropdown">
+                        <a href="https://dribbble.com/HaoranZhang" class="nav-link">
+                            <span class="nav-link-name">dribbble</span>
+                            <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 9L5 5L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item navbar-dropdown">
+                        <a href="mailto:horanzh@gmail.com" class="nav-link">
+                            <span class="nav-link-name">email</span>
+                            <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 9L5 5L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </header>
+        <!-- style 2 -->
+        <div class="navbar navbar-mobile navbar-mobile-style-2" id="navbar-mobile-style-2">
+            <div class="shape justify-content-end">
+                <svg data-rellax-speed="0" width="544" height="362" viewBox="0 0 544 362" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="320.5" cy="41.5" r="320.5" fill="#F5F5F5" />
+                </svg>
+            </div>
+            <div class="navbar-head">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img width="107" src="assets/images/logo.svg" alt="">
+                    </a>
+                    <a class="navbar-toggle" href="#" data-fancybox-close>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row gh-1 justify-content-center">
+                    <div class="col-12 col-md-7 col-lg-5 col-xl-4">
+                        <div class="navbar-body">
+                            <ul class="nav navbar-nav navbar-nav-collapse">
+                                <li class="nav-item navbar-collapse">
+                                    <a href="index.html" class="nav-link collapsed" role="button" aria-expanded="false">
+                                        <span class="nav-link-name">Work</span>
+                                        <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                
+                                <li class="nav-item navbar-collapse">
+                                    <a href="about.html" class="nav-link collapsed" role="button" aria-expanded="false">
+                                        <span class="nav-link-name">About</span>
+                                        <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                
+                                <li class="nav-item navbar-collapse">
+                                    <a href="https://dribbble.com/HaoranZhang" class="nav-link collapsed" role="button" aria-expanded="false">
+                                        <span class="nav-link-name">Dribbble</span>
+                                        <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="nav-item navbar-collapse">
+                                    <a href="mailto:horanzh@gmail.com" class="nav-link collapsed" role="button" aria-expanded="false">
+                                        <span class="nav-link-name">Email</span>
+                                        <svg class="collapse-icon" width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 11L6 6L1 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-1 d-none d-md-block"></div>
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-3">
+                        <div class="navbar-footer">
+                            <div class="mb-60">
+                                <p class="lead mb-17 font-weight-medium">Contact info:</p>
+                                <ul class="list-group borderless font-size-17">
+                                    <li class="list-group-item">Email: <a href="mailto:horanzh@gmail.com">horanzh@gmail.com</a></li>
+                                    <li class="list-group-item">Phone: <a href="callto:+1 (513)570-3636">+1 (513)570-3636</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-wrap">
+            <div class="container">
+                <div class="row justify-content-center text-center pt-60 pb-130 mt-30">
+                    <div class="col-12 col-lg-8">
+                        <h1 class="h2 mb-n10 show-on-scroll" data-show-duration="500" data-show-distance="10">Josephinum Academy</h1>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/JosephinumAcademyoftheSacredHeart/JosephinumAcademyoftheSacredHeart.webp" alt="Josephinum Prototype" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h2>Role: UX Researcher and UI Designer</h2>
+                        <h2>Duration: Jan 25, 2019 - May 20, 2019 (16 weeks)</h2>
+                        <h2>Team: Research and design with a 4-person team</h2>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Project Description</h3>
+                        <p>Josephinum Academy of the Sacred Heart is a Roman Catholic, all-girls high school in Chicago, Illinois. The owner not satisfied with their current website, they want to offer a more professional website and <strong>focus on donating and apply</strong>. Designed for an Advanced UX Research class, Spring 2019.</p>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>My Role</h3>
+                        <p>My role in the team is a UX researcher and a UI designer. I made the wireframe of the Homepage, Student life page, Admissions page, and About Us page. I analyzed other school websites and conducted a card sort survey with our target group to help we design the Josephinum website. I built the donor persona Fiona, I drew Storyboard based on the persona Jo’s family. I lead two usability tests to make sure the solution represent by our design is useful and appealing.</p>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Goals</h3>
+                        <ul>
+                          <li>Let users know the reason they should support Josephinum.</li>
+                          <li>Shows infomation about why they need to donate/support.</li>
+                          <li>Let users know the reason for apply Josephinum.</li>
+                          <li>Shows how much does the school cost on the website.</li>
+                          <li>Reorder the navigation and make sure all the information are not be hided on the website.</li>
+                          <li>Cohesive with the brand message.</li>
+                          <li>Make the designs centered around the needs of the persona’s.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Process</h3>
+                        <ol>
+                          <li>User research and interviews</li>
+                          <li>Competitive analysis</li>
+                          <li>Persona and Storyboard</li>
+                          <li>Card sort study</li>
+                          <li>Site map</li>
+                          <li>Sketch</li>
+                          <li>Wireframes</li>
+                          <li>User testing</li>
+                          <li>Prototype</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Target Audience</h3>
+                        <p>The audience for Josephinum Academy website is prospective families and prospective donors.</p>
+                        <h4>Prospective Family</h4>
+                        <p>The primary audience is prospective families in the Chicago area with kids in middle school. Priorities are to have their daughter attend a high school with great academics and activities while still being affordable. They want to prepare their daughter for college. This can be an exciting time for prospective families but also a bit overwhelming. They are often looking for specific things for their daughter to participate in (i.e. debate club, basketball, swimming).</p>
 
-<!--HEAD-->
-<section class="container article-head">
-  <h1>Josephinum Academy of the Sacred Heart</h1>
-  <div class="banner">
-    <img src="images/JosephinumAcademyoftheSacredHeart/JosephinumAcademyoftheSacredHeart.webp">
-  </div>
-</section>
+                        <h4>Prospective Donors</h4>
+                        <p>Prospective donors are Chicago-based private donors, corporate and mission-aligned nonprofits. The donors have a connection to Catholic education, girls' education/empowerment, improved educational opportunities for inner city/low-income families, Latina community support, African American community support, and IB education. They are looking to further their contribution in these areas by donating to Josephinum. The donor needs to know why they should donate, what the donation goes towards, the values and mission of the school, verification that the school received the donation, and what specific project their money is going towards. </p>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Plan</h3>
+                        <p>We made plans on Trello to start our project. Each task is assigned to a team member, with a detailed introduction and a deadline. The number behind the task represent the level of importance of this task. We will move the task to the “Done” section when the task is completed.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/JosephinumAcademyoftheSacredHeart/plan.webp" alt="Plan" data-show-duration="800">
 
-<!--MAIN-->
-<section class="container article-body">
-  <section class="rdt">
-    <div>
-      <h2>Role</h2>
-      <p>UX Researcher and UI Designer</p>
-    </div>
-    <div>
-      <h2>Duration</h2>
-      <p>Jan 25, 2019 - May 20, 2019 <br> 16 weeks</p>
-    </div>
-    <div>
-      <h2>Team</h2>
-      <p>Research and design with a 4-person team</p>
-    </div>
-  </section>
-
-  <div>
-    <h2>Project Description</h2>
-    <p>Josephinum Academy of the Sacred Heart is a Roman Catholic, all-girls high school in Chicago, Illinois. The owner not satisfied with their current website, they want to offer a more professional website and <strong>focus on donating and apply</strong>. Designed for an Advanced UX Research class, Spring 2019.</p>
-  </div>
-    
-  <div>
-    <h2>My Role</h2>
-    <p>My role in the team is a UX researcher and a UI designer. I made the wireframe of the Homepage, Student life page, Admissions page, and About Us page. I analyzed other school websites and conducted a card sort survey with our target group to help we design the Josephinum website. I built the donor persona Fiona, I drew Storyboard based on the persona Jo’s family. I lead two usability tests to make sure the solution represent by our design is useful and appealing.</p>
-  </div>
-
-  <div>
-    <h2>Goals</h2>
-    <ul>
-      <li>Let users know the reason they should support Josephinum.</li>
-      <li>Shows infomation about why they need to donate/support.</li>
-      <li>Let users know the reason for apply Josephinum.</li>
-      <li>Shows how much does the school cost on the website.</li>
-      <li>Reorder the navigation and make sure all the information are not be hided on the website.</li>
-      <li>Cohesive with the brand message.</li>
-      <li>Make the designs centered around the needs of the persona’s.</li>
-    </ul>
-  </div>
-
-  <div>
-    <h2>Process</h2>
-    <ol>
-      <li>User research and interviews</li>
-      <li>Competitive analysis</li>
-      <li>Persona and Storyboard</li>
-      <li>Card sort study</li>
-      <li>Site map</li>
-      <li>Sketch</li>
-      <li>Wireframes</li>
-      <li>User testing</li>
-      <li>Prototype</li>
-    </ol>
-  </div>
-
-  <div>
-    <h2>Target Audience</h2>
-      <p>The audience for Josephinum Academy website is prospective families and prospective donors.</p>
-      <h3>Prospective Family</h3>
-      <p>The primary audience is prospective families in the Chicago area with kids in middle school. Priorities are to have their daughter attend a high school with great academics and activities while still being affordable. They want to prepare their daughter for college. This can be an exciting time for prospective families but also a bit overwhelming. They are often looking for specific things for their daughter to participate in (i.e. debate club, basketball, swimming).</p>
-      
-      <h3>Prospective Donors</h3>
-      <p>Prospective donors are Chicago-based private donors, corporate and mission-aligned nonprofits. The donors have a connection to Catholic education, girls' education/empowerment, improved educational opportunities for inner city/low-income families, Latina community support, African American community support, and IB education. They are looking to further their contribution in these areas by donating to Josephinum. The donor needs to know why they should donate, what the donation goes towards, the values and mission of the school, verification that the school received the donation, and what specific project their money is going towards. </p>
-  </div>
-
-  <div>
-    <h2>Plan</h2>
-    <p>We made plans on Trello to start our project. Each task is assigned to a team member, with a detailed introduction and a deadline. The number behind the task represent the level of importance of this task. We will move the task to the “Done” section when the task is completed.</p>
-  </div>
-  <figure><img src="images/JosephinumAcademyoftheSacredHeart/plan.webp" alt="Plan" /></figure>
-
-  <div>
-    <h2>Research</h2>
-      <p>Collectively we interviewed 4 parents of Josephinum students to learn more about the process of finding a high school in the Chicago area. Through these in-depth interviews, we were able to understand the needs and goals of one of the main users of the Josephinum Website.
-    <br>Research questions and findings are shown below.<br>Use this <a href="JosephinumAcademyoftheSacredHeart/Josephinum-Academy-of-the-Sacred-Heart-Research.pdf" class="link">link</a> to view the pdf file.</p>
-  </div>
-  <figure><img src="images/JosephinumAcademyoftheSacredHeart/Josephinum-interview.webp" alt="Research"/></figure>
-
-  <div>
-    <h2>Site existing problems</h2>
-    <ul>
-      <li>Search Bar is in the bottom of the page, hard to find.</li>
-      <li>Hard to find "contact us".</li>
-      <li>Try to type "letter" in credit card number, did not show me anything until I submit.</li>
-      <li>Images on each page busy and distracting.</li>
-      <li>Overlay logo only for home page, not for each page.</li>
-      <li>Donate page long and boring, could be condensed.</li>
-      <li>Too many long videos.</li>
-    </ul>
-  </div>
-    
-  <div>
-    <h2>Competitor Analysis</h2>
-    <p>To begin our competitive analysis, we researched four high schools in the Chicago area to find websites that would be reasonable to compare to Josephinum. After reviewing the four websites, we created a structured list of questions to find how those websites perform as a high school website. We considered calls to action, photography, donation pages, mobile optimization and how the school conveys their brand. After we conducted the competitive analyses, we have come to the conclusion that the competitors have a few advancements in their websites that we agree would be a good idea to emulate when redesigning the Josephinum website. Use this <a href="JosephinumAcademyoftheSacredHeart/Josephinum-Competitive-analysis.pdf" class="link">link</a> to view the pdf file.</p>
-  </div>
-  <figure><img src="images/JosephinumAcademyoftheSacredHeart/Josephinum-CompetitorResearch.webp" alt="Competitive analysis" /></figure>
-
-  <div>
-    <h2>Features and Functions</h2>
-    <p>The application and shadowing/visiting scenario will be essential to the experience because of the client’s goal. The home page will also need to show why josephinum is so special and a brief info section about them. This info section will include key facts, statistics, and values that represent the quality of the school but will find a balance between necessary knowledge and more detailed descriptions. From the home page will be direct links to apply and donate, as these are the desired destinations for our core audiences. Users should be able to easily navigate to the application page and/or donation page, and quickly and effortlessly complete each process respectively. The user will complete a form (that should be intuitive and easily understood) for both the application page and donation page. After submitting the form, a confirmation page will appear to indicate the completion of the process.</p>
-  </div>
-    
-  <div>
-    <h2>Persona</h2>
-    <p>We made two personas based on the two types of customers we have, the prospective family and a donor after our interviews. We do our best to make them more like a real person and think about their needs and goals when we doing design works.</p>
-  </div>
-    <figure><img src="images/JosephinumAcademyoftheSacredHeart/Josephinum-persona.webp" alt="Persona" /></figure>
-
-  <div>
-    <h2>Story Boards</h2>
-    <p>We made a story board based on the persona Jo’s family, they are trying to enroll Jane(the kid) to a school that will prepare her for the collage.</p>
-  </div>
-  <figure><img src="images/JosephinumAcademyoftheSacredHeart/Josephinum-storyboard.webp" alt="Story Boards" /></figure>
-    
-  <div>
-    <h2>Open Card Sort</h2>
-    <p>Our team conducted an open card sort study using OptimalSort. We gave participants the task of organizing 37 “cards” each containing a title from the current Josephinum website navigation into category names that made sense.  The final study included responses from 41 participants, 16 of them being parents. The purpose of this test was to evaluate how users group the content of the Josephinum website and in what categories.</p>
-  </div>
-  <figure><img src="images/JosephinumAcademyoftheSacredHeart/Josephinum-cardsort.webp" alt="Open Card Sort" /></figure>
-    
-  <div>
-    <h2>Site Map</h2>
-      <p>After the open card sort study, we were ready to create a sitemap to visually present an overview of the interface design.</p>
-  </div>
-  <figure><img src="images/JosephinumAcademyoftheSacredHeart/sitemap.webp" alt="Site Map" /></figure>
-    
-  <div>
-    <h2>Design Sketches</h2>
-    <p>We began sketching wireframes after we have the sitemap. We brainstormed several variations of the website and determined our final design direction.</p>
-  </div>
-  <figure><img src="images/JosephinumAcademyoftheSacredHeart/Sketch.webp" alt="sketch" /></figure>
-    
-  <div>
-    <h2>Wireframes</h2>
-    <p>After more sketching, we used Adobe XD to design the first set of the wireframe design. Selected wireframes are shown below, Use this <a href="https://xd.adobe.com/view/310789d6-5907-45b2-861e-8d8abdf81034-6454/" class="link">link</a> to view full wireframes.</p>
-  </div>
-  <figure><img src="images/JosephinumAcademyoftheSacredHeart/Wireframe.webp" alt="Wireframes" /></figure>
-  
-  <div>
-    <h2>Test, Iterate, Repeat</h2>
-    <p>We use the first set of the wireframe to collect usability test data. We continue to revise the wireframe design based on the usability test data. <br>We have 8 interviewees accpeted to be interviewed. Use this <a href="JosephinumAcademyoftheSacredHeart/Usability-Test-Script.pdf" class="link">link</a> to view our usability test script. <br>Below are the main findings from the userbility test.</p>
-    <ul>
-      <li>Make everything more uniform.</li>
-      <li>Fewer steps to get to info.</li>
-      <li>Keep Navigation Uniform from page to page.</li>
-      <li>Too much money information around each other at the top.</li>
-      <li>To many categories may make our audiences confused and lost their directions.</li>
-    </ul>
-  </div>
-  <figure>
-    <img src="images/JosephinumAcademyoftheSacredHeart/Josephinum-test.webp" alt="Test, Iterate, Repeat" />
-  </figure>
-    
-  <div>
-    <h2>Style Guide</h2>
-    <p>We need to make sure we cohesive with the brand message in the website re-design, in order to be consistent with the josephinum brand, we used purple as the main color of the website. <br>The Style guide including color and fonts that we would integrate into the site.</p>
-  </div>
-  <figure>
-    <img src="images/JosephinumAcademyoftheSacredHeart/StyleGuide.webp" alt="icons,color,buttons" />
-  </figure>
-    
-  <div>
-    <h2>Final Prototype</h2>
-      <p>After the userbility test, we finally created the final prototype. Below are the selected pages of the final prototype and a video-Walkthrough of all the main functionality for Josephinum Academy of the Sacred Heart website.<br>Use this <a href="https://xd.adobe.com/view/f9defde8-8afb-4663-97d9-f63e002226be-ac8d/" class="link">link</a> to view the interactive final prototype.</p>
-  </div>
-  <figure>
-    <img src="images/JosephinumAcademyoftheSacredHeart/Josephinum-prototype.webp" alt="Final Prototype" />
-    <div class="containeriframe">
-    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/rIRg6CJDwvc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </figure>
-</section>
-
-<footer class="container footer">
-  <a href="https://dribbble.com/HaoranZhang">Dribbble</a> <a href="mailto: horanzh@gmail.com">Email</a>
-</footer>
-
-</body>
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Research</h3>
+                        <p>Collectively we interviewed 4 parents of Josephinum students to learn more about the process of finding a high school in the Chicago area. Through these in-depth interviews, we were able to understand the needs and goals of one of the main users of the Josephinum Website.
+                        <br>Research questions and findings are shown below.<br>Use this <a href="assets/pdf/JosephinumAcademyoftheSacredHeart/Josephinum-Academy-of-the-Sacred-Heart-Research.pdf" class="link">link</a> to view the pdf file.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/JosephinumAcademyoftheSacredHeart/Josephinum-interview.webp" alt="interview" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Site existing problems</h3>
+                        <ul>
+                          <li>Search Bar is in the bottom of the page, hard to find.</li>
+                          <li>Hard to find "contact us".</li>
+                          <li>Try to type "letter" in credit card number, did not show me anything until I submit.</li>
+                          <li>Images on each page busy and distracting.</li>
+                          <li>Overlay logo only for home page, not for each page.</li>
+                          <li>Donate page long and boring, could be condensed.</li>
+                          <li>Too many long videos.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Competitor Analysis</h3>
+                        <p>To begin our competitive analysis, we researched four high schools in the Chicago area to find websites that would be reasonable to compare to Josephinum. After reviewing the four websites, we created a structured list of questions to find how those websites perform as a high school website. We considered calls to action, photography, donation pages, mobile optimization and how the school conveys their brand. After we conducted the competitive analyses, we have come to the conclusion that the competitors have a few advancements in their websites that we agree would be a good idea to emulate when redesigning the Josephinum website. Use this <a href="assets/pdf/JosephinumAcademyoftheSacredHeart/Josephinum-Competitive-analysis.pdf" class="link">link</a> to view the pdf file.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/JosephinumAcademyoftheSacredHeart/Josephinum-CompetitorResearch.webp" alt="Competitor Research" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                    <div class="col-lg-8 post-content">
+                        <h3>Features and Functions</h3>
+                        <p>The application and shadowing/visiting scenario will be essential to the experience because of the client’s goal. The home page will also need to show why josephinum is so special and a brief info section about them. This info section will include key facts, statistics, and values that represent the quality of the school but will find a balance between necessary knowledge and more detailed descriptions. From the home page will be direct links to apply and donate, as these are the desired destinations for our core audiences. Users should be able to easily navigate to the application page and/or donation page, and quickly and effortlessly complete each process respectively. The user will complete a form (that should be intuitive and easily understood) for both the application page and donation page. After submitting the form, a confirmation page will appear to indicate the completion of the process.</p>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Persona</h3>
+                        <p>We made two personas based on the two types of customers we have, the prospective family and a donor after our interviews. We do our best to make them more like a real person and think about their needs and goals when we doing design works.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/JosephinumAcademyoftheSacredHeart/Josephinum-persona.webp" alt="Persona" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Story Boards</h3>
+                        <p>We made a story board based on the persona Jo’s family, they are trying to enroll Jane(the kid) to a school that will prepare her for the collage.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/JosephinumAcademyoftheSacredHeart/Josephinum-storyboard.webp" alt="Storyboard" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Open Card Sort</h3>
+                        <p>Our team conducted an open card sort study using OptimalSort. We gave participants the task of organizing 37 “cards” each containing a title from the current Josephinum website navigation into category names that made sense.  The final study included responses from 41 participants, 16 of them being parents. The purpose of this test was to evaluate how users group the content of the Josephinum website and in what categories.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/JosephinumAcademyoftheSacredHeart/Josephinum-cardsort.webp" alt="card sort" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Site Map</h3>
+                        <p>After the open card sort study, we were ready to create a sitemap to visually present an overview of the interface design.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/JosephinumAcademyoftheSacredHeart/sitemap.webp" alt="Site Map" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Design Sketches</h3>
+                        <p>We began sketching wireframes after we have the sitemap. We brainstormed several variations of the website and determined our final design direction.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/JosephinumAcademyoftheSacredHeart/Sketch.webp" alt="Sketches" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Wireframes</h3>
+                        <p>After more sketching, we used Adobe XD to design the first set of the wireframe design. Selected wireframes are shown below, Use this <a href="https://xd.adobe.com/view/310789d6-5907-45b2-861e-8d8abdf81034-6454/" class="link">link</a> to view full wireframes.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/JosephinumAcademyoftheSacredHeart/Wireframe.webp" alt="wireframe" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Test, Iterate, Repeat</h3>
+                        <p>We use the first set of the wireframe to collect usability test data. We continue to revise the wireframe design based on the usability test data. <br>We have 8 interviewees accpeted to be interviewed. Use this <a href="assets/pdf/JosephinumAcademyoftheSacredHeart/Usability-Test-Script.pdf" class="link">link</a> to view our usability test script. <br>Below are the main findings from the userbility test.</p>
+                        <ul>
+                          <li>Make everything more uniform.</li>
+                          <li>Fewer steps to get to info.</li>
+                          <li>Keep Navigation Uniform from page to page.</li>
+                          <li>Too much money information around each other at the top.</li>
+                          <li>To many categories may make our audiences confused and lost their directions.</li>
+                        </ul>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/JosephinumAcademyoftheSacredHeart/Josephinum-test.webp" alt="Test, Iterate, Repeat" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Style Guide</h3>
+                        <p>We need to make sure we cohesive with the brand message in the website re-design, in order to be consistent with the josephinum brand, we used purple as the main color of the website. <br>The Style guide including color and fonts that we would integrate into the site.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-130 show-on-scroll" src="assets/images/JosephinumAcademyoftheSacredHeart/StyleGuide.webp" alt="Style Guide" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-60">
+                    <div class="col-lg-8 post-content">
+                        <h3>Final Prototype</h3>
+                        <p>After the userbility test, we finally created the final prototype. Below are the selected pages of the final prototype and a video-Walkthrough of all the main functionality for Josephinum Academy of the Sacred Heart website.<br>Use this <a href="https://xd.adobe.com/view/f9defde8-8afb-4663-97d9-f63e002226be-ac8d/" class="link">link</a> to view the interactive final prototype.</p>
+                    </div>
+                </div>
+                <img class="w-100 mb-60 show-on-scroll" src="assets/images/JosephinumAcademyoftheSacredHeart/Josephinum-prototype.webp" alt="Final Prototype" data-show-duration="800">
+                
+                <div class="row justify-content-center gh-1 mb-130">
+                <div class="containeriframe">
+                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/rIRg6CJDwvc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                </div>
+                
+                <div class="page-navigation mt-60">
+                    <a href="munchai.html" class="btn btn-clean"><svg class="icon-arrow icon-arrow-left" width='26' height='11' viewBox='0 0 26 11' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <path d='M5.5 1L1 5.5L5.5 10' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
+                            <path d='M19 5.5H1' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' /></svg>prev<span class="d-none d-sm-inline"> project</span></a>
+                    <a href="index.html" class="btn btn-light btn-circle btn-xs">all</a>
+                    <a href="know-your-grove.html" class="btn btn-clean">next<span class="d-none d-sm-inline"> project</span><svg class="icon-arrow icon-arrow-right" width='26' height='11' viewBox='0 0 26 11' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <path d='M20.5 1L25 5.5L20.5 10' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' />
+                            <path d='M7 5.5H25' stroke='currentColor' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round' /></svg></a>
+                </div>
+            </div>
+        </div>
+        <footer class="footer overflow-hidden pb-60">
+            <div class="container pb-10">
+                <hr class="mb-10 pb-30">
+                <div class="row gh-1 gv-2">
+                    <div class="col-12 col-md mt-md-04">
+                        <a href="index.html">
+                            <img width="108" src="assets/images/logo.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 mt-md-04">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="callto:+1 (513)570-3636" class="nav-link">+1 (513)570-3636</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="mailto:horanzh@gmail.com" class="nav-link">horanzh@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- START: Scripts -->
+        <!-- Object Fit Polyfill -->
+        <script src="assets/vendor/object-fit-images/dist/ofi.min.js"></script>
+        <!-- Popper -->
+        <script src="assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- Bootstrap Validator -->
+        <script src="assets/vendor/bootstrap-validator/dist/validator.min.js"></script>
+        <!-- ImagesLoaded -->
+        <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+        <!-- Swiper -->
+        <script src="assets/vendor/swiper/dist/js/swiper.min.js"></script>
+        <!-- Animejs -->
+        <script src="assets/vendor/animejs/lib/anime.min.js"></script>
+        <!-- Rellax -->
+        <script src="assets/vendor/rellax/rellax.min.js"></script>
+        <!-- Countdown -->
+        <script src="assets/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
+        <!-- Moment.js -->
+        <script src="assets/vendor/moment/min/moment.min.js"></script>
+        <script src="assets/vendor/moment-timezone/builds/moment-timezone-with-data.min.js"></script>
+        <!-- Isotope -->
+        <script src="assets/vendor/isotope-layout/dist/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/isotope-packery/packery-mode.pkgd.min.js"></script>
+        <!-- Jarallax -->
+        <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
+        <script src="assets/vendor/jarallax/dist/jarallax-video.min.js"></script>
+        <!-- Fancybox -->
+        <script src="assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+        <!-- Themebau -->
+        <script src="assets/js/themebau.min.js"></script>
+        <!-- END: Scripts -->
+    </body>
 </html>
