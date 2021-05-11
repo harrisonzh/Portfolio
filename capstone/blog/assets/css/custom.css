@@ -1,0 +1,66 @@
+body {
+  color: #303030;
+  font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.hellomobile {
+    display:none;
+}
+
+.content-wrap h1 {
+  font-weight:bold;
+}
+
+.content-wrap h2 {
+  font-size: 1.4rem;
+  line-height: 2;
+}
+
+.content-wrap p {
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+.content-wrap li {
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+.link {
+  color: #4561D6;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #EB6838;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.containeriframe {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+@media (max-width: 827px) {
+    
+.hellofull {
+  display:none;
+}
+
+.hellomobile {
+  display:block;
+  opacity: 1;
+}
+    
+}
